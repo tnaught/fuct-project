@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>官方网上商城</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../static/home/css/screen.css" media="screen, projection">
+    <!--[if IE]
+    <link rel="stylesheet" type="text/css" href="../static/home/css/ie.css" media="screen, projection">
+    <![endif]-->
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="topbar">
+                <div class="container">
+                    
+                </div>
+            </div>
+            <div class="shopbar">
+                
+            </div>
+            <div class="navbar">
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="row grid-12">
+                <div class="grid grid-1 grid-first"></div>
+                <div class="grid grid-4"></div>
+                <div class="grid grid-1"></div>
+                <div class="grid grid-1"></div>
+                <div class="grid grid-1"></div>
+                <div class="grid grid-1"></div>
+                <div class="grid grid-1"></div>
+                <div class="grid grid-1"></div>
+                <div class="grid grid-1 grid-end"></div>
+            </div>
+            <div class="row grid-4">
+                <div class="grid grid-1 grid-first"></div>
+                <div class="grid grid-3 grid-end"></div>
+            </div>
+            <div class="row grid-12">
+                <div class="grid grid-4 grid-first"></div>
+                <div class="grid grid-8 grid-end"></div>
+            </div>
+            <div class="row grid-12">
+                <div class="grid grid-6 grid-first">
+                    <div class="grid grid-3 grid-first"></div>
+                    <div class="grid grid-3 grid-end"></div>
+                </div>
+                <div class="grid grid-6 grid-end"></div>
+            </div>
+            <div class="grid-5 block-center">
+                <div class="carousel">
+                    <ul class="carousel-container">
+                        <li class="active"><a href=""><img src="../static/home/image/500_300.svg"></a></li>
+                        <li><a href=""><img data-src="../static/home/image/500_300.svg"></a></li>
+                        <li><a href=""><img data-src="../static/home/image/500_300.svg"></a></li>
+                        <li><a href=""><img data-src="../static/home/image/500_300.svg"></a></li>
+                        <li><a href=""><img data-src="../static/home/image/500_300.svg"></a></li>
+                    </ul>
+                    <ul class="carousel-nav">
+                        <li class="active"><span></span></li>
+                        <li><span></span></li>
+                        <li><span></span></li>
+                        <li><span></span></li>
+                        <li><span></span></li>
+                    </ul>
+                    <button class="forward-btn btn"><img data-src="holder.js/34x34"></button>
+                    <button class="backward-btn btn"><img data-src="holder.js/34x34"></button>
+                </div>
+            </div>
+        </div>
+        
+        <p style="height:1000px;"></p>
+        <div id="main_footer"></div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            footer
+        </div>
+    </div>
+    <script type="text/javascript" src="../sea-modules/seajs/2.3.0/sea.js"></script>
+    <script type="text/javascript">
+        // Set configuration
+        seajs.config({
+            base: '../sea-modules/',
+            alias: {
+                'jquery': 'jquery/1.10.2/jquery.js'
+            }
+        });
+
+        seajs.use('holder/holder.js', '../static/home/js/src/main');
+
+    </script>
+</body>
+</html>

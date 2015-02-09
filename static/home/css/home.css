@@ -1,0 +1,234 @@
+/* line 3, ../sass/includes/_layout.scss */
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 7, ../sass/includes/_layout.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 10, ../sass/includes/_layout.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 13, ../sass/includes/_layout.scss */
+.clearfix, .container, .navbar, .nav, .banner-container ul.banner {
+  *zoom: 1;
+}
+/* line 16, ../sass/includes/_layout.scss */
+.clearfix:before, .container:before, .navbar:before, .nav:before, .banner-container ul.banner:before, .clearfix:after, .container:after, .navbar:after, .nav:after, .banner-container ul.banner:after {
+  display: table;
+  content: ' ';
+}
+/* line 20, ../sass/includes/_layout.scss */
+.clearfix:after, .container:after, .navbar:after, .nav:after, .banner-container ul.banner:after {
+  clear: both;
+}
+
+/* line 24, ../sass/includes/_layout.scss */
+.container {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1190px;
+}
+/* line 32, ../sass/includes/_layout.scss */
+.container > .row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+/* line 10, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
+#main {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -500px;
+}
+/* line 18, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
+#main #main_footer {
+  height: 500px;
+}
+
+/* line 20, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
+#footer {
+  clear: both;
+  position: relative;
+  height: 500px;
+}
+
+/* line 9, ../sass/home.scss */
+body {
+  background-color: #fff;
+  line-height: 1.42857;
+  font-size: 14px;
+  color: #666;
+  font-family: Helvetica Arial sans-serif;
+}
+
+/* line 16, ../sass/home.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 19, ../sass/home.scss */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 25, ../sass/home.scss */
+.topbar {
+  height: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #f8f8f8;
+}
+
+/* line 33, ../sass/home.scss */
+.shopbar {
+  height: 120px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* line 38, ../sass/home.scss */
+.shopbar .shopbar-qrcode {
+  width: 90px;
+  height: 90px;
+}
+
+/* line 45, ../sass/home.scss */
+.navbar {
+  margin-bottom: 20px;
+}
+/* line 49, ../sass/home.scss */
+.navbar .navbar-left {
+  float: left;
+  width: 228px;
+  min-height: 50px;
+}
+/* line 55, ../sass/home.scss */
+.navbar .navbar-left .category-bar {
+  height: 22.85714px;
+  width: 228px;
+  padding-top: 13.57143px;
+  padding-bottom: 13.57143px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #313131;
+}
+/* line 67, ../sass/home.scss */
+.navbar .navbar-right {
+  padding-left: 228px;
+}
+/* line 69, ../sass/home.scss */
+.navbar .navbar-right .nav {
+  height: 50px;
+  padding-left: 50px;
+  background-color: #000;
+}
+
+/* line 77, ../sass/home.scss */
+.category .category-detail {
+  height: 440px;
+}
+
+/* line 81, ../sass/home.scss */
+.nav {
+  background-image: url("../image/nav-bottom-line.png");
+  background-size: 72px auto;
+  background-position: 50px bottom;
+  background-repeat: no-repeat;
+}
+/* line 89, ../sass/home.scss */
+.nav > li {
+  float: left;
+}
+/* line 91, ../sass/home.scss */
+.nav > li a {
+  display: block;
+  padding-top: 13.57143px;
+  padding-bottom: 13.57143px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* line 104, ../sass/home.scss */
+.banner-container {
+  position: relative;
+  height: 440px;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 110, ../sass/home.scss */
+.banner-container ul.banner {
+  width: 300%;
+}
+/* line 114, ../sass/home.scss */
+.banner-container ul.banner li {
+  float: left;
+  width: 33.333%;
+}
+/* line 117, ../sass/home.scss */
+.banner-container ul.banner li a {
+  display: block;
+  height: 100%;
+}
+/* line 120, ../sass/home.scss */
+.banner-container ul.banner li a img {
+  width: 100%;
+  height: 100%;
+}
+/* line 127, ../sass/home.scss */
+.banner-container .banner-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+/* line 131, ../sass/home.scss */
+.banner-container .banner-dots span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-image: url(..image/nav-dot.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* line 140, ../sass/home.scss */
+.banner-container .turn {
+  position: absolute;
+  top: 50%;
+  margin-top: -33px;
+  display: block;
+  width: 66px;
+  height: 66px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* line 150, ../sass/home.scss */
+.banner-container .turn.prev-page {
+  left: 0;
+  background-image: url(../image/left-arrow.png);
+}
+/* line 154, ../sass/home.scss */
+.banner-container .turn.next-page {
+  right: 0;
+  background-image: url(../image/right-arrow.png);
+}

@@ -1,0 +1,557 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"line",
+				"lineHeight"
+			],
+			[
+				"sho",
+				"shopbarHeight"
+			],
+			[
+				"fon",
+				"fontSize"
+			],
+			[
+				"topba",
+				"topbarHeight"
+			],
+			[
+				"topb",
+				"topbar-color"
+			],
+			[
+				"ba",
+				"backward-btn"
+			],
+			[
+				"fr",
+				"forward-btn"
+			],
+			[
+				"border-ra",
+				"webkit-border-radius"
+			],
+			[
+				"sea",
+				"sea-modules"
+			],
+			[
+				"Sc",
+				"script"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"clea",
+				"clearfix"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/home.html",
+			"settings":
+			{
+				"buffer_size": 8777,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/home/css/home.css",
+			"settings":
+			{
+				"buffer_size": 5112,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/home/css/screen.css",
+			"settings":
+			{
+				"buffer_size": 12959,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/home/sass/home.scss",
+			"settings":
+			{
+				"buffer_size": 3490,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.rb",
+			"settings":
+			{
+				"buffer_size": 958,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/home/sass/screen.scss",
+			"settings":
+			{
+				"buffer_size": 471,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				"set syntax ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set syntax:javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"",
+				"Bookmarks: Clear All"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"packagein",
+				"Package Control: Install Package"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"packageinsta",
+				"Package Control: Install Package"
+			],
+			[
+				"packagere",
+				"Package Control: Remove Package"
+			],
+			[
+				"packagelist",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packagei",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/private/fuck-project",
+		"/E/private/fuck-project/.sass-cache",
+		"/E/private/fuck-project/app",
+		"/E/private/fuck-project/static",
+		"/E/private/fuck-project/static/home",
+		"/E/private/fuck-project/static/home/sass",
+		"/E/private/fuck-project/static/home/sass/includes"
+	],
+	"file_history":
+	[
+		"/C/Users/tianqin/Desktop/CutAndSliceMe_sample/readme.md",
+		"/E/private/fuck-project/static/home/sass/includes/_grid.scss",
+		"/E/private/fuck-project/static/home/sass/includes/_layout.scss",
+		"/E/private/fuck-project/app/test.html",
+		"/E/private/fuck-project/app/demo.html",
+		"/E/private/fuck-project/README.md",
+		"/D/fuck-project/static/home/css/home.css",
+		"/D/fuck-project/config.rb",
+		"/D/fuck-project/app/test.html",
+		"/D/fuck-project/static/home/sass/includes/_carousel.scss",
+		"/D/fuck-project/static/home/sass/includes/_btn.scss",
+		"/D/fuck-project/static/home/sass/includes/_layout.scss",
+		"/D/fuck-project/static/home/js/src/main.js",
+		"/D/fuck-project/sea-modules/jquery/1.10.2/jquery.js",
+		"/D/fuck-project/static/home/js/src/carousel.js",
+		"/C/Users/tnaught/Desktop/xichao/田琴/modify.txt",
+		"/D/fuck-project/static/home/sass/screen.scss",
+		"/D/fuck-project/sea-modules/holder/holder.js",
+		"/D/fuck-project/test.html",
+		"/D/fuck-project/home.html",
+		"/D/fuck-project/README.md",
+		"/D/fuck-project/sass/_grid.scss",
+		"/D/fuck-project/sass/_navbar.scss",
+		"/D/fuck-project/stylesheets/screen.css",
+		"/D/fuck-project/sass/_layout.scss",
+		"/D/fuck-project/sass/screen.scss",
+		"/D/fuck-project/.gitignore",
+		"/C/Users/tnaught/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/tnaught/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"forward-btn",
+			"holder.js/500x300/text:page",
+			"holder.js/500x300/text:page2",
+			"augment",
+			"run",
+			"prepareDOMElement",
+			"holder",
+			"*",
+			"\"",
+			"&."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1027,
+								1027
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "static/home/css/home.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1730,
+								1730
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1012.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "static/home/css/screen.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								619,
+								619
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 814.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "static/home/sass/home.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3490,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								758,
+								758
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "config.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "static/home/sass/screen.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								290,
+								290
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.603562551781,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 148.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "fuct-project.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"home.css",
+				"static\\home\\css\\home.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 159.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
