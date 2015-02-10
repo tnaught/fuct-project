@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+$borderDirection: top !default;
+$fontSize: 12px !default;
+$baseLineHeight: 1.5 !default;
+/*变量与占位符*/
+.border-#{$borderDirection} {
+    border-#{$borderDirection}: 1px solid #ccc;
+}
+
+body {
+    font: #{$fontSize}/#{$baseLineHeight};
+}
+$base: ".module";
+#{$base} {
+    &#{$base}-something {
+        background: red;
+    }
+}
+/*数组*/
+$linkColor: #08c #333 #ccc;
+a {
+    color: nth($linkColor, 1);
+
+    &:hover {
+        color: nth($linkColor, 2);
+    }
+}
+
+$list: ();
+
+$boolean: true !default;
+@mixin simple-mixin {
+    @if $boolean {
+        display: block;
+    }
+    @else {
+        display: none;
+    }
+}
+
+.some-selector {
+    @include simple-mixin;
+}
+$width: 300;
+@if $width != auto {
+    $width: if(unitless($width), $width + px, $width);
+}
+.a {
+    width: $width;
+}

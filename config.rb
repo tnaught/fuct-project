@@ -1,6 +1,12 @@
 require 'compass/import-once/activate'
 require 'compass-normalize'
 # Require any additional compass plugins here.
+#开发环境
+environment = :development
+#environment = :production
+#调试开关
+firesass = false
+#firesass = true
 
 # Set this to the root of your project when deployed:
 http_path = "/"
@@ -16,8 +22,12 @@ javascripts_dir = "static/home/js"
 # relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
-# line_comments = false
+#line_comments = false
+#压缩比例
+output_style = (environment == :development) ? :expanded : :compressed
 
+#调试信息
+sass_options = (environment == :development && firesass == true) ? {:debug_info => true} : {}
 
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:
