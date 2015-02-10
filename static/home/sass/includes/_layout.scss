@@ -1,5 +1,3 @@
-@import "compass/layout";
-
 .block-center {
     margin-left: auto;
     margin-right: auto;
@@ -37,4 +35,3 @@
         margin-right: -5px;
     }
 }
-@include sticky-footer(500px, #main, #main_footer);
