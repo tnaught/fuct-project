@@ -230,11 +230,13 @@ $navbarHeight: 50px;
 
     ul.banner {
         width: 300%;
+        height: 100%;
         @extend .clearfix;
 
         li {
             float: left;
             width: 33.333%;
+            height: 100%;
             a {
                 display: block;
                 height: 100%;
