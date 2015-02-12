@@ -270,42 +270,42 @@ th {
   padding: 0;
 }
 
-/* line 3, ../sass/includes/_layout.scss */
+/* line 1, ../sass/includes/_layout.scss */
 .block-center {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 7, ../sass/includes/_layout.scss */
+/* line 5, ../sass/includes/_layout.scss */
 .pull-right {
   float: right;
 }
 
-/* line 10, ../sass/includes/_layout.scss */
+/* line 8, ../sass/includes/_layout.scss */
 .pull-left {
   float: left;
 }
 
-/* line 13, ../sass/includes/_layout.scss */
+/* line 11, ../sass/includes/_layout.scss */
 .clearfix, .container, .row, .carousel .carousel-container, .carousel .carousel-nav {
   *zoom: 1;
 }
-/* line 16, ../sass/includes/_layout.scss */
+/* line 14, ../sass/includes/_layout.scss */
 .clearfix:before, .container:before, .row:before, .carousel .carousel-container:before, .carousel .carousel-nav:before, .clearfix:after, .container:after, .row:after, .carousel .carousel-container:after, .carousel .carousel-nav:after {
   display: table;
   content: ' ';
 }
-/* line 20, ../sass/includes/_layout.scss */
+/* line 18, ../sass/includes/_layout.scss */
 .clearfix:after, .container:after, .row:after, .carousel .carousel-container:after, .carousel .carousel-nav:after {
   clear: both;
 }
 
-/* line 24, ../sass/includes/_layout.scss */
+/* line 22, ../sass/includes/_layout.scss */
 .hide {
   display: none !important;
 }
 
-/* line 27, ../sass/includes/_layout.scss */
+/* line 25, ../sass/includes/_layout.scss */
 .container {
   padding-left: 5px;
   padding-right: 5px;
@@ -313,35 +313,10 @@ th {
   margin-right: auto;
   max-width: 1190px;
 }
-/* line 35, ../sass/includes/_layout.scss */
+/* line 33, ../sass/includes/_layout.scss */
 .container > .row {
   margin-left: -5px;
   margin-right: -5px;
-}
-
-/* line 10, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
-html, body {
-  height: 100%;
-}
-
-/* line 12, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
-#main {
-  clear: both;
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin-bottom: -500px;
-}
-/* line 18, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
-#main #main_footer {
-  height: 500px;
-}
-
-/* line 20, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
-#footer {
-  clear: both;
-  position: relative;
-  height: 500px;
 }
 
 /* line 1, ../sass/includes/_grid.scss */

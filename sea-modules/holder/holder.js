@@ -534,7 +534,6 @@ Holder.js - client side image placeholders
                     prepareImageElement(options, engineSettings, objectAttr.dataSrc, object);
                 }
             }
-
             for (i = 0; i < images.length; i++) {
                 var image = images[i];
                 var imageAttr = {};
@@ -2005,7 +2004,7 @@ Holder.js - client side image placeholders
     }
 
 })(function(fn, name, global) {
-    var isAMD = (typeof define === 'function' && define.amd);
+    var isAMD = (typeof define === 'function');
     var isNode = (typeof exports === 'object');
     var isWeb = !isNode;
 

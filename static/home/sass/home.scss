@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+@import "compass/css3";
 @import "includes/layout";
 
 $topbarColor: #f8f8f8;
@@ -229,8 +230,11 @@ $navbarHeight: 50px;
     overflow: hidden;
 
     ul.banner {
+        position: relative;
         width: 300%;
         height: 100%;
+        @include transition(all linear 1s);
+
         @extend .clearfix;
 
         li {
@@ -244,13 +248,13 @@ $navbarHeight: 50px;
                     width: 100%;
                     height: 100%; 
                 }
-
-                &:hover {
-                    .turn {
-                        display: block;
-                    }
-                }
             }
+        }
+    }
+
+    &:hover {
+        .turn {
+            display: block;
         }
     }
     .banner-dots {
@@ -274,7 +278,6 @@ $navbarHeight: 50px;
         position: absolute;
         top: 50%;
         margin-top: -33px;
-        display: block;
         width: 66px;
         height: 66px;
         background-repeat: no-repeat;
