@@ -298,13 +298,13 @@ ul {
   position: relative;
   width: 300%;
   height: 100%;
-  -moz-transition: all 1s linear;
-  -o-transition: all 1s linear;
-  -webkit-transition: all 1s linear;
-  transition: all 1s linear;
 }
-/* line 240, ../sass/home.scss */
+/* line 239, ../sass/home.scss */
 .banner-container ul.banner li {
+  -moz-transition: left 1s linear;
+  -o-transition: left 1s linear;
+  -webkit-transition: left 1s linear;
+  transition: left 1s linear;
   float: left;
   width: 33.333%;
   height: 100%;

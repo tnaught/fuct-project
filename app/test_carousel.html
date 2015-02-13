@@ -46,6 +46,12 @@
         seajs.use(['holder/holder.js', '../static/home/js/src/carousel'], function(holder, Carousel) {
                 var c = new Carousel('#container');
                 c.init();
+                $('#prev').on('click', function() {
+                    c.prev();
+                })
+                $('#next').on('click', function() {
+                    c.next();
+                })
         });
     </script>
 </body>
