@@ -28,17 +28,12 @@ define(function(require, exports, module) {
             'width': '100%'
         })
         this.$children.eq(this.currentIndex).css('display', 'block');
-        this.$children.eq(this.currentIndex).css('display', 'block');
-        this.$children.eq(this.currentIndex).css('display', 'block');
-        this.$children.eq(this.currentIndex).css('display', 'block');
-        
+        this.$children.eq(this.currentIndex+1).css('display', 'block');
+        this.$children.eq(this.currentIndex-1).css('display', 'block');
+        this.$children.eq(this.currentIndex-1).css('left', '-100%');
+        this.$children.eq(this.currentIndex+1).css('left', '100%');
     }
-    $('#prev').on('click', function() {
-        Carousel.prototype.next(1);
-    })
-    $('#next').on('click', function() {
-        Carousel.prototype.prev();
-    })
+    
     Carousel.prototype.next = function() {
         this.go(1);
     }
@@ -46,11 +41,14 @@ define(function(require, exports, module) {
         this.go(-1);
     }
     Carousel.prototype.go = function(num) {
-        var $current = this.$children.eq(this.currentIndex);
-        var $next = this.$children.eq(this.currentIndex + num);
-        var $prev = this.$children.eq(this.currentIndex - num);
-        $current.css({'display': 'block'});
-
+        var cIndex = this.currentIndex = this.currentIndex + num;
+        var $current = this.$children.eq(cIndex%this.total);
+        var $next = this.$children.eq((cIndex+1)%this.total);
+        var $prev = this.$children.eq((cIndex-1)%this.total);
+        this.$children.css({'left':'0', 'display':'none'});
+        $current.css({'display': 'block', 'left': '0'});
+        $next.css({'display': 'block', 'left': '100%'});
+        $prev.css({'display': 'block', 'left': '-100%'});
     }
     Carousel.prototype.append = function() {
         this.$banner.css({
@@ -84,7 +82,7 @@ define(function(require, exports, module) {
                 _self.currentIndex = 0;
             }
             _self.$banner.css('left', '-' + _self.currentIndex + '00%');
-        }, 2000)   
+        }, 2000)
     }
     Carousel.prototype.move = function(num) {
         var currentIndex = this.currentIndex + num;

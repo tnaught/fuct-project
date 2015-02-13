@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"cur",
+				"currentIndex"
+			],
+			[
+				"cu",
+				"currentIndex"
+			],
+			[
 				"st",
 				"style	Tag"
 			],
@@ -63,31 +71,39 @@
 			"file": "app/home.html",
 			"settings":
 			{
-				"buffer_size": 22101,
+				"buffer_size": 20456,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "static/home/sass/study.scss",
+			"file": "sea-modules/seajs/2.3.0/sea-debug.js",
 			"settings":
 			{
-				"buffer_size": 783,
+				"buffer_size": 18177,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/test_carousel.html",
+			"settings":
+			{
+				"buffer_size": 2025,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "static/home/css/home.css",
+			"file": "sea-modules/holder/holder.js",
 			"settings":
 			{
-				"buffer_size": 7537,
+				"buffer_size": 70153,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "static/home/css/screen.css",
+			"file": "static/home/js/src/carousel.js",
 			"settings":
 			{
-				"buffer_size": 12823,
+				"buffer_size": 3111,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,39 +111,7 @@
 			"file": "static/home/sass/home.scss",
 			"settings":
 			{
-				"buffer_size": 5539,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "static/home/css/study.css",
-			"settings":
-			{
-				"buffer_size": 507,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "config.rb",
-			"settings":
-			{
-				"buffer_size": 1234,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "static/home/sass/screen.scss",
-			"settings":
-			{
-				"buffer_size": 471,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "static/home/sass/includes/_layout.scss",
-			"settings":
-			{
-				"buffer_size": 626,
+				"buffer_size": 9454,
 				"line_ending": "Windows"
 			}
 		}
@@ -219,28 +203,45 @@
 		"/E/private/fuck-project",
 		"/E/private/fuck-project/.sass-cache",
 		"/E/private/fuck-project/app",
+		"/E/private/fuck-project/sea-modules",
+		"/E/private/fuck-project/sea-modules/holder",
 		"/E/private/fuck-project/static",
 		"/E/private/fuck-project/static/home",
-		"/E/private/fuck-project/static/home/image",
-		"/E/private/fuck-project/static/home/sass",
+		"/E/private/fuck-project/static/home/js",
+		"/E/private/fuck-project/static/home/js/src",
 		"/E/private/fuck-project/static/home/sass/includes"
 	],
 	"file_history":
 	[
+		"/E/private/fuck-project/static/home/css/home.css",
+		"/E/private/fuck-project/static/home/sass/common.scss",
+		"/E/private/fuck-project/.sass-cache/2b306d06c01f243960d9b9ad223b2efbc581d903/common.scssc",
+		"/E/private/fuck-project/config.rb",
+		"/E/private/fuck-project/.sass-cache/2b306d06c01f243960d9b9ad223b2efbc581d903/home.scssc",
+		"/E/private/fuck-project/static/home/sass/includes/_layout.scss",
+		"/E/private/fuck-project/static/home/js/src/main.js",
+		"/E/private/fuck-project/app/test.html",
+		"/E/private/fuck-project/static/home/css/study.css",
+		"/E/private/fuck-project/static/home/sass/home.scss",
+		"/E/private/fuck-project/sea-modules/seajs/2.3.0/sea-debug.js",
+		"/E/private/fuck-project/static/home/sass/study.scss",
+		"/E/private/fuck-project/static/home/css/common.css",
+		"/E/gitTest/readme.md",
+		"/E/gitTest/touchme.md",
+		"/E/git-test/readme.txt",
+		"/E/private/fuck-project/sea-modules/seajs/2.3.0/sea.js",
+		"/E/private/fuck-project/.sass-cache/634957a91cd535ae22988739afd4ab649774aaee/_appearance.scssc",
+		"/E/private/fuck-project/sea-modules/holder/holder.js",
 		"/E/private/sae/index.php",
 		"/E/private/fuck-project/.sass-cache/2b306d06c01f243960d9b9ad223b2efbc581d903/study.scssc",
 		"/E/private/fuck-project/.sass-cache/2b306d06c01f243960d9b9ad223b2efbc581d903/screen.scssc",
 		"/D/program/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.14/lib/sass/engine.rb",
 		"/D/program/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.9/lib/sass/engine.rb",
 		"/E/private/fuck-project/app/home.html",
-		"/E/private/fuck-project/static/home/css/home.css",
 		"/E/private/fuck-project/.sass-cache/d2b6a2b485d0180f597c5cbbd01ad23302984130/_layout.scssc",
 		"/E/private/fuck-project/.sass-cache/5ce1a7363e080b72372058624f03091d84287792/_layout.scssc",
-		"/E/private/fuck-project/.sass-cache/2b306d06c01f243960d9b9ad223b2efbc581d903/home.scssc",
 		"/C/Users/tianqin/Desktop/CutAndSliceMe_sample/readme.md",
 		"/E/private/fuck-project/static/home/sass/includes/_grid.scss",
-		"/E/private/fuck-project/static/home/sass/includes/_layout.scss",
-		"/E/private/fuck-project/app/test.html",
 		"/E/private/fuck-project/app/demo.html",
 		"/E/private/fuck-project/README.md",
 		"/D/fuck-project/static/home/css/home.css",
@@ -269,7 +270,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 60.0
 	},
 	"find_in_files":
 	{
@@ -283,6 +284,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"        \n",
+			"currentIndex",
+			"200x200",
+			"00x200",
+			"settings",
+			"stylesheets",
+			"sgSVGRenderer",
+			"index",
+			"Index",
+			"index",
+			"Module.use",
+			"banner",
+			"\"onload\"",
+			"addOnload",
 			"黑体",
 			"first-child",
 			"first-childe",
@@ -324,7 +339,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -333,15 +348,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22101,
+						"buffer_size": 20456,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								893,
-								893
+								20298,
+								20298
 							]
 						],
 						"settings":
@@ -354,104 +369,103 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 12280.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "static/home/sass/study.scss",
+					"file": "sea-modules/seajs/2.3.0/sea-debug.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 783,
+						"buffer_size": 18177,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								588,
-								588
+								16365,
+								16372
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 16047.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/test_carousel.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								526
 							]
 						],
 						"settings":
 						{
 							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 712.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "static/home/css/home.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7537,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"check_times": 0,
-							"clone_numbers": 1,
-							"history_list_is_closing": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 22.0,
+						"translation.y": 198.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "static/home/css/screen.css",
+					"file": "sea-modules/holder/holder.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12823,
+						"buffer_size": 70153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								18693,
+								18693
 							]
 						],
 						"settings":
 						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 22.0,
+						"translation.y": 11515.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -462,30 +476,30 @@
 			[
 				{
 					"buffer": 4,
-					"file": "static/home/sass/home.scss",
+					"file": "static/home/js/src/carousel.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5539,
+						"buffer_size": 3111,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5234,
-								5234
+								905,
+								906
 							]
 						],
 						"settings":
 						{
 							"origin_encoding": "ASCII",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5591.0,
+						"translation.y": 396.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -493,140 +507,19 @@
 				},
 				{
 					"buffer": 5,
-					"file": "static/home/css/study.css",
+					"file": "static/home/sass/home.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 507,
+						"buffer_size": 9454,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								376,
-								376
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 484.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "static/home/css/home.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7537,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"check_times": 0,
-							"clone_numbers": 1,
-							"history_list_is_closing": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "config.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1234,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								140,
-								140
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "static/home/sass/screen.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 471,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								337,
-								337
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "static/home/sass/includes/_layout.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 626,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								5122,
+								5122
 							]
 						],
 						"settings":
@@ -637,10 +530,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4973.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -674,7 +567,7 @@
 		"cols":
 		[
 			0.0,
-			0.388898737122,
+			0.472057339235,
 			1.0
 		],
 		"rows":
@@ -703,6 +596,38 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"holder",
+				"sea-modules\\holder\\holder.js"
+			],
+			[
+				"common.sc",
+				"static\\home\\sass\\common.scss"
+			],
+			[
+				"home.scss",
+				"static\\home\\sass\\home.scss"
+			],
+			[
+				"test.html",
+				"app\\test.html"
+			],
+			[
+				"sea",
+				"sea-modules\\seajs\\2.3.0\\sea-debug.js"
+			],
+			[
+				"carousel",
+				"static\\home\\js\\src\\carousel.js"
+			],
+			[
+				"main.",
+				"static\\home\\js\\src\\main.js"
+			],
+			[
+				"sea.",
+				"sea-modules\\seajs\\2.3.0\\sea-debug.js"
+			],
 			[
 				"study",
 				"static\\home\\css\\study.css"
@@ -746,7 +671,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 185.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

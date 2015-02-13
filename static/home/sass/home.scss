@@ -233,11 +233,11 @@ $navbarHeight: 50px;
         position: relative;
         width: 300%;
         height: 100%;
-        @include transition(all linear 1s);
 
         @extend .clearfix;
 
         li {
+            @include transition(left linear 1s);
             float: left;
             width: 33.333%;
             height: 100%;
