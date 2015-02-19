@@ -5,8 +5,8 @@
 
 @import "normalize";
 @import "compass/css3";
-@import "includes/layout.scss";
-@import "includes/grid.scss";
-@import "includes/btn.scss";
-@import "includes/navbar.scss";
-@import "includes/carousel.scss";
+@import "includes/mixin";
+@import "includes/layout";
+@import "includes/grid";
+@import "includes/btn";
+@import "includes/carousel";

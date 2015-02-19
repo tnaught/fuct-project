@@ -1,79 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"     
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <style type="text/css">
-        .p {
-            background-color: #f90;
-            width: 200px;
-            height: 100px;
-        }
-        .c {
-            background-color: #009;
-            width: 100px;
-            height: 50px;
-        }
-        .c-width {
-            width: 50%;
-        }
-        .c-left {
-            position: relative;
-            left: 50%;
-        }
-        .c-margin {
-            margin-left: 50%;
-        }
-        .c-translate {
-            -webkit-transform: translateX(50%);
-        }
-    </style>
 </head>
 <body>
-    <p>width</p>
-    <div class="p">
-        <div class="c c-width">
-            
-        </div>
-    </div>
-    <p>left</p>
-    <div class="p">
-        <div class="c c-left">
-            
-        </div>
-    </div>
-    <p>margin</p>
-    <div class="p">
-        <div class="c c-margin">
-            
-        </div>
-    </div>
-    <p>translate</p>
-    <div class="p">
-        <div class="c c-translate">
-            
-        </div>
-    </div>
-    <p>
-        getBoundingClientRect()方法返回一个text rectange对象包含了一组text rectangles
-        rectObject = object.getBoundingClientRect()
-
-        rectObject中包含left,top,right,bottom
-        left,top是相对于viewport，没有包含scrollX和scrollY
-        为了浏览器兼容性，使用window.pageXOffset和window.pageYOffset代替window.scrollX和window.scrollY
-
-        (((t = document.documentElement) || (t = document.body.parentNode)) && typeof t.ScrollLeft == 'number' ? t : document.body).ScrollLeft
-        (((t = document.documentElement) || (t = document.body.parentNode)) && typeof t.ScrollTop == 'number' ? t : document.body).scrollTop
-    </p>
-    <script type="text/javascript">
-        var c1 = document.querySelector('.c-width');
-        console.log(c1.getBoundingClientRect())
-        var c2 = document.querySelector('.c-left');
-        console.log(c2.getBoundingClientRect())
-        var c3 = document.querySelector('.c-margin');
-        console.log(c3.getBoundingClientRect())
-        var c4 = document.querySelector('.c-translate');
-        console.log(c4.getBoundingClientRect())
-    </script>
+  <div style="border: 1px solid red; width: 100px;">
+    <a href="#" style="border-color: blue; float: right;">bar</a>    
+    <a href="#" style="float:left;">foo</a>            
+    <div style="clear:both;"></div>
+  </div>
+something
 </body>
 </html>

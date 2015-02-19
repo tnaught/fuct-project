@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 @import "compass/css3";
-@import "includes/layout";
+@import "includes/mixin";
 
 $topbarColor: #f8f8f8;
 $darkColor: #333;
@@ -38,7 +38,6 @@ $topbarHeight: 50px;
     }
     .attent-btn {
         margin-right: 18px;
-
     }
     .favorate-btn {
         margin-right: 50px;
@@ -55,7 +54,7 @@ $topbarHeight: 50px;
     }
 }
 .dropdown-arrow {
-    display: inline-block;
+    @include display-inline-block;
     margin-top: -2px;
     width: 0;
     height: 0;
@@ -71,7 +70,7 @@ $shopbarHeight: 150px;
     padding-bottom: ($shopbarHeight - 120)/2;
 
     .qrcode {
-        display: inline-block;
+        @include display-inline-block;
         margin-right: 40px;
         img {
             display: block;
@@ -80,17 +79,16 @@ $shopbarHeight: 150px;
         }
     }
     .brand {
-        display: inline-block;
-        height:100%;
+        @include display-inline-block;
         margin-right: 24px;
-        vertical-align: 10px;
+        margin-top: 10px;
     }
     .name-area {
-        display: inline-block;
+        @include display-inline-block;
         padding-left: 12px;
         margin-right: 20px;
         border-left: 1px solid #aaa;
-        vertical-align: 30px;
+        margin-top: 30px;
 
         span {
             font-size: 16px;
@@ -102,8 +100,8 @@ $shopbarHeight: 150px;
         }
     }
     .area-choose {
-        display: inline-block;
-        vertical-align: 30px;
+        @include display-inline-block;
+        margin-top: 57px;
     }
     .security {
         text-align: right;
@@ -115,10 +113,10 @@ $shopbarHeight: 150px;
     }
     .search {
         margin-top: 20px;
-        @extend .clearfix;
+        @include clearfix;
 
         > input {
-            display: inline-block;
+            @include display-inline-block;
             float: left;
             width: 290px;
             padding-right: 58px;
@@ -129,12 +127,13 @@ $shopbarHeight: 150px;
             border: 1px solid #000;
         }
         > button {
-            display: inline-block;
+            @include display-inline-block;
             float: left;
-            height: 42px;
+            height: 34px;
             width: 57px;
             margin-left: -57px;
-            text-indent: -999px;
+            text-indent: -9999px;
+            text-transform:capitalize;
             background-color: #000;
             background-image: url(../image/search.png);
             background-repeat: no-repeat;
@@ -146,67 +145,71 @@ $shopbarHeight: 150px;
 
 $navbarHeight: 50px;
 .navbar {
-    @extend .clearfix;
-    margin-bottom: 20px;
-    
-    .navbar-left {
-        float: left;
-        width: 228px;
-        min-height: 50px;
-
-
-        .category-bar {
-            height: 16px*$lineHeight;
-            width: 228px;
-            padding-top: ($navbarHeight - 16px*$lineHeight)/2;
-            padding-bottom: ($navbarHeight - 16px*$lineHeight)/2;
-            text-align: center;
-            font-size: 16px;
-            font-weight: 600;
-            color: #fff;
-            background-color: #313131;
-        }
-    }
-    .navbar-right {
-        padding-left: 228px;
-        .nav {
-            height: 50px;
-            padding-left: 50px;
-            background-color: #000;
-        }
-    }
+    margin-bottom: 24px;
 }
-.category {
-    .category-detail {
-        height: 438px;
-        border: 1px solid #aaa;
 
-        > ul {
-            padding: 0 21px 36px 21px;
-            > li {
-                padding-top: 12px;
-                padding-bottom: 12px;
-            }
-            > li + li {
-                border-top: 1px solid #ddd; 
-            }
-            .category-name {
-                display: block;
-                font-weight: 600;
-                font-size: 16px;
-                color: #333;
-                margin-bottom: 12px;
+/* 全部商品分类 */
+.category {
+    position: relative;
+    @include display-inline-block;
+    width: 100%;
+
+    .category-title {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        background-color: #313131;
+    }
+
+    .category-dropdown {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+
+        .category-detail {
+            height: 438px;
+            border: 1px solid #aaa;
+            
+            > ul {
+                padding: 0 21px 36px 21px;
+
+                > li {
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+                > li + li {
+                    border-top: 1px solid #ddd; 
+                }
+                .category-name {
+                    display: block;
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #333;
+                    margin-bottom: 12px;
+                }
             }
         }
     }
 }
 .nav {
+    height: 50px;
+    padding-left: 50px;
     background-image: url("../image/nav-bottom-line.png");
+    background-color: #000;
     background-size: 72px auto;
     background-position: 50px bottom;
     background-repeat: no-repeat;
+    overflow: hidden;
 
-    @extend .clearfix;
+    @include clearfix;
 
     > li {
         float: left;
@@ -234,7 +237,7 @@ $navbarHeight: 50px;
         width: 300%;
         height: 100%;
 
-        @extend .clearfix;
+        @include clearfix;
 
         li {
             @include transition(left linear 1s);
@@ -262,7 +265,7 @@ $navbarHeight: 50px;
         bottom: 10px;
         left: 50%;
         span {
-            display: inline-block;
+            @include display-inline-block;
             width: 14px;
             height: 14px;
             background-image: url(../image/nav-dot.png);
@@ -311,7 +314,7 @@ $navbarHeight: 50px;
 .hot {
     .hot-head {
         margin-bottom: 30px;
-        @extend .clearfix;
+        @include clearfix;
 
         .hot-title {
             float: left;
@@ -337,42 +340,34 @@ $good-number-per-row: 4;
 $good-margin: 20px;
 
 .material {
-    float: left;
-    width: (1190px - $good-margin * ($good-number-per-row - 1)) / 4;
+    border: 1px solid #333;
+    padding: 24px 5px 5px 5px;
+    
+    .material-image {
+        text-align: center;
+        > img {
 
-    + .material {
-        margin-left: $good-margin;
+        }
     }
-    .material-inner {
-        border: 1px solid #333;
-        padding: 24px 5px 5px 5px;
-        
-        .material-image {
-            text-align: center;
-            > img {
+    .material-descript {
+        padding: 12px;
+        .price {
+            @include clearfix;
 
+            .real {
+                color: #f00;
+            }
+            .factory {
             }
         }
-        .material-descript {
-            padding: 12px;
-            .price {
-                @extend .clearfix;
-
-                .real {
-                    color: #f00;
-                }
-                .factory {
-                }
-            }
-            .name {
-                color: #000;
-                font-size: 16px;
-            }
-            .bug {
-                button {
-                    border: 1px solid #aaa;
-                    background-color: transparent;
-                }
+        .name {
+            color: #000;
+            font-size: 16px;
+        }
+        .bug {
+            button {
+                border: 1px solid #aaa;
+                background-color: transparent;
             }
         }
     }
@@ -394,7 +389,7 @@ $good-margin: 20px;
     }
     .shop-info {
         float: left;
-        @extend .clearfix;
+        @include clearfix;
 
         ul {
             float: left;
@@ -423,8 +418,8 @@ $good-margin: 20px;
         text-align: center;
 
         ul {
-            display: inline-block;
-            @extend .clearfix;
+            @include display-inline-block;
+            @include clearfix;
 
             li {
                 float: left;

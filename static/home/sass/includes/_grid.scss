@@ -1,35 +1,36 @@
+/* 1200px 12grid */
+$grid-gutter: 5px;
+$grid-number: 12;
+$row-width: 1200px;
+
 .row {
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-left: -$grid-gutter;
+    margin-right: -$grid-gutter;
     overflow: hidden;
 
-    .grid {
-        float: left;
-        min-height: 20px;
-        background-color: #f90;
-        margin-left: 5px;
-        margin-right: 5px;
-        
-        & > .grid {
-            background-color: #09f;
-        }
-
-        &.grid-first {
-            margin-left: 0;
-        }
-        &.grid-end {
-            margin-right: 0;
-        }
-    }
-
-    & + .row {
-        margin-top: 20px;
-    }
-
-    @extend .clearfix;
+    @include clearfix;
 }
-@for $i from 1 through 12 {
+@for $i from 1 through $grid-number {
     .grid-#{$i} {
-        width: 90px * $i + 10px * ($i - 1);
+        float: left;
+        width: $row-width/$grid-number * $i;
+        min-height: 20px;
+
+        .grid-inner {
+            padding-left: $grid-gutter;
+            padding-right: $grid-gutter;
+        }
+    }
+}
+
+@for $i from 1 through $grid-number {
+    .row .grid-offset-#{$i} {
+        margin-left: $row-width/$grid-number * $i;
+    }
+}
+
+@for $i from 1 through $grid-number {
+    .row .grid-pull-#{$i} {
+        margin-right: $row-width/$grid-number * $i;
     }
 }
