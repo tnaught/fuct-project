@@ -2,6 +2,7 @@
 
 @import "compass/css3";
 @import "includes/mixin";
+@import "includes/slick";
 
 $topbarColor: #f8f8f8;
 $darkColor: #333;
@@ -200,6 +201,7 @@ $navbarHeight: 50px;
     }
 }
 .nav {
+    position: relative;
     height: 50px;
     padding-left: 50px;
     background-image: url("../image/nav-bottom-line.png");
@@ -208,6 +210,8 @@ $navbarHeight: 50px;
     background-position: 50px bottom;
     background-repeat: no-repeat;
     overflow: hidden;
+    @include transition-property(background-position);
+    @include transition-duration(.4s);
 
     @include clearfix;
 
@@ -226,76 +230,84 @@ $navbarHeight: 50px;
         }
     }
 }
-.banner-container {
+.banner {
     position: relative;
-    height: 440px;
     width: 100%;
+    height: 440px;
     overflow: hidden;
-
-    ul.banner {
-        position: relative;
-        width: 300%;
-        height: 100%;
-
-        @include clearfix;
-
-        li {
-            @include transition(left linear 1s);
-            float: left;
-            width: 33.333%;
-            height: 100%;
-            a {
-                display: block;
-                height: 100%;
-                img {
-                    width: 100%;
-                    height: 100%; 
-                }
-            }
-        }
-    }
-
-    &:hover {
-        .turn {
-            display: block;
-        }
-    }
-    .banner-dots {
-        position: absolute;
-        bottom: 10px;
-        left: 50%;
-        span {
-            @include display-inline-block;
-            width: 14px;
-            height: 14px;
-            background-image: url(../image/nav-dot.png);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-        }
-        .active {
-            background-image: url(../image/nav-dot-active.png);
-        }
-    }
-    .turn {
-        display: none;
-        position: absolute;
-        top: 50%;
-        margin-top: -33px;
-        width: 66px;
-        height: 66px;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-
-        &.prev-page {
-            left: 0;
-            background-image: url(../image/left-arrow.png);
-        }
-        &.next-page {
-            right: 0;
-            background-image: url(../image/right-arrow.png);
+    > li {
+        height: 440px;
+        img {
+            width: 100%;
         }
     }
 }
+// .banner-container {
+
+//     ul.banner {
+//         position: relative;
+//         width: 100%;
+//         height: 100%;
+
+//         @include clearfix;
+
+//         li {
+//             @include transition(left linear 1s);
+//             float: left;
+//             width: 33.333%;
+//             height: 100%;
+//             a {
+//                 display: block;
+//                 height: 100%;
+//                 img {
+//                     width: 100%;
+//                     height: 100%; 
+//                 }
+//             }
+//         }
+//     }
+
+//     &:hover {
+//         .turn {
+//             display: block;
+//         }
+//     }
+//     .banner-dots {
+//         position: absolute;
+//         bottom: 10px;
+//         left: 50%;
+//         span {
+//             @include display-inline-block;
+//             width: 14px;
+//             height: 14px;
+//             background-image: url(../image/nav-dot.png);
+//             background-repeat: no-repeat;
+//             background-size: 100% 100%;
+//         }
+//         .active {
+//             background-image: url(../image/nav-dot-active.png);
+//         }
+//     }
+//     .turn {
+//         display: none;
+//         position: absolute;
+//         top: 50%;
+//         margin-top: -33px;
+//         width: 66px;
+//         height: 66px;
+//         background-repeat: no-repeat;
+//         background-size: 100% 100%;
+
+//         &.prev-page {
+//             left: 0;
+//             background-image: url(../image/left-arrow.png);
+//         }
+//         &.next-page {
+//             right: 0;
+//             background-image: url(../image/right-arrow.png);
+//         }
+//     }
+// }
 #recommend_content {
     margin-bottom: 36px;
 

@@ -109,7 +109,7 @@
                 </div>
                 <div class="grid-9">
                     <div class="grid-inner">
-                        <ul class="nav">
+                        <ul class="nav" data-action="nav">
                             <li class="active"><a href="">首页</a></li>
                             <li><a href="">热销商品</a></li>
                             <li><a href="">优惠套餐</a></li>
@@ -117,12 +117,12 @@
                             <li><a href="">体验馆</a></li>
                             <li><a href="">服务咨询</a></li>
                         </ul>
-                        <div class="banner-container">
-                            <ul class="banner">
-                                <li><a href=""><img src="../static/home/image/banner1.png" alt=""></a></li>
-                                <li><a href=""><img src="../static/home/image/banner2.png" alt=""></a></li>
-                                <li><a href=""><img src="../static/home/image/banner3.png" alt=""></a></li>
-                            </ul>
+                        <ul class="banner">
+                            <li><a href=""><img src="../static/home/image/banner1.png" alt=""></a></li>
+                            <li><a href=""><img src="../static/home/image/banner2.png" alt=""></a></li>
+                            <li><a href=""><img src="../static/home/image/banner3.png" alt=""></a></li>
+                        </ul>
+                        <!-- <div class="banner-container">
                             <span class="prev-page turn"></span>
                             <span class="next-page turn"></span>
                             <div class="banner-dots">
@@ -130,7 +130,7 @@
                                 <span></span>
                                 <span></span>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -376,26 +376,6 @@
             </div>
         </div>
     </div>
-    <!-- <div class="container">
-        <div class="row">
-            <div class="grid-1"></div>
-            <div class="grid-1"></div>
-            <div class="grid-1"></div>
-            <div class="grid-1"></div>
-            <div class="grid-1"></div>
-            <div class="grid-1"></div>
-            <div class="grid-1"></div>
-            <div class="grid-1"></div>
-            <div class="grid-1"></div>
-            <div class="grid-1"></div>
-            <div class="grid-1"></div>
-            <div class="grid-1"></div>
-        </div>
-        <div class="row">
-            <div class="grid-6 grid-offset-3 grid-pull-2"></div>
-            <div class="grid-1 grid"></div>
-        </div>
-    </div> -->
     <div id="footer">
         <div class="container">
             <div class="footer-inner">
@@ -459,12 +439,7 @@
         </div>
     </div>
     <script type="text/javascript" src="../static/lib/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript" src="http://sorgalla.com/jcarousel/dist/jquery.jcarousel.min.js"></script>
-    <script type="text/javascript">
-        $('.banner-container').jcarousel({
-            list: '.banner',
-            wrap: 'both'
-        })
-    </script>
+    <script type="text/javascript" src="../static/lib/slick/slick.min.js"></script>
+    <script type="text/javascript" src="../static/home/js/home.js"></script>
 </body>
 </html>
