@@ -311,7 +311,7 @@ th {
   padding-right: 5px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1190px;
+  width: 1190px;
   *zoom: 1;
 }
 /* line 4, ../sass/includes/_mixin.scss */

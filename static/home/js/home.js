@@ -47,4 +47,13 @@ $('li', $nav).hover(
 $('.banner').slick({
     'dots':true
 });
+
+$('.category').on('mouseover', '.child li', function(e) {
+    setTimeout(function() {
+        $('.category .category-more').show();
+    }, 200)
+});
+$('.category').on('mouseout', '.child li', function(e) {
+    $('.category .category-more').hide();
+});
 })

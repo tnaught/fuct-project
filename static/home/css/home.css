@@ -391,8 +391,8 @@ ul {
 /* line 158, ../sass/home.scss */
 .category .category-title {
   width: 100%;
-  height: 50px;
-  line-height: 50px;
+  height: 48px;
+  line-height: 48px;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
@@ -413,33 +413,55 @@ ul {
 }
 /* line 179, ../sass/home.scss */
 .category .category-dropdown .category-detail > ul {
-  padding: 0 21px 36px 21px;
+  padding-bottom: 24px;
 }
 /* line 182, ../sass/home.scss */
-.category .category-dropdown .category-detail > ul > li {
-  padding-top: 12px;
-  padding-bottom: 12px;
+.category .category-dropdown .category-detail > ul > li > a {
+  display: block;
+  padding: 7px 21px 7px 21px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 /* line 189, ../sass/home.scss */
-.category .category-dropdown .category-detail > ul > li + li {
-  border-top: 1px solid #ddd;
+.category .category-dropdown .category-detail > ul .child > li {
+  padding: 7px 21px 7px 21px;
 }
-/* line 192, ../sass/home.scss */
+/* line 191, ../sass/home.scss */
+.category .category-dropdown .category-detail > ul .child > li.active, .category .category-dropdown .category-detail > ul .child > li:hover {
+  background-color: #bcbcbc;
+}
+/* line 195, ../sass/home.scss */
+.category .category-dropdown .category-detail > ul .divider {
+  height: 1px;
+  margin: 7px 21px 7px 21px;
+  background-color: #ddd;
+}
+/* line 200, ../sass/home.scss */
 .category .category-dropdown .category-detail > ul .category-name {
   display: block;
   font-weight: 600;
   font-size: 16px;
   color: #333;
-  margin-bottom: 12px;
+}
+/* line 208, ../sass/home.scss */
+.category .category-dropdown .category-more {
+  margin-left: -1px;
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 100%;
+  background-color: #e9e9e9;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=94);
+  opacity: 0.94;
+  z-index: 1;
 }
 
-/* line 203, ../sass/home.scss */
+/* line 221, ../sass/home.scss */
 .nav {
   position: relative;
-  height: 50px;
+  height: 48px;
   padding-left: 50px;
   background-image: url("../image/nav-bottom-line.png");
   background-color: #000;
@@ -466,15 +488,15 @@ ul {
 .nav:after {
   clear: both;
 }
-/* line 218, ../sass/home.scss */
+/* line 236, ../sass/home.scss */
 .nav > li {
   float: left;
 }
-/* line 220, ../sass/home.scss */
+/* line 238, ../sass/home.scss */
 .nav > li a {
   display: block;
-  padding-top: 13.57143px;
-  padding-bottom: 13.57143px;
+  padding-top: 12.57143px;
+  padding-bottom: 12.57143px;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
@@ -483,43 +505,43 @@ ul {
   font-size: 16px;
 }
 
-/* line 233, ../sass/home.scss */
+/* line 251, ../sass/home.scss */
 .banner {
   position: relative;
   width: 100%;
   height: 440px;
   overflow: hidden;
 }
-/* line 238, ../sass/home.scss */
+/* line 256, ../sass/home.scss */
 .banner > li {
   height: 440px;
 }
-/* line 240, ../sass/home.scss */
+/* line 258, ../sass/home.scss */
 .banner > li img {
   width: 100%;
 }
 
-/* line 311, ../sass/home.scss */
+/* line 329, ../sass/home.scss */
 #recommend_content {
   margin-bottom: 36px;
 }
-/* line 314, ../sass/home.scss */
+/* line 332, ../sass/home.scss */
 #recommend_content .lg-image {
   width: 100%;
   margin-bottom: 5px;
 }
-/* line 318, ../sass/home.scss */
+/* line 336, ../sass/home.scss */
 #recommend_content .md-image {
   float: left;
   width: 50%;
 }
 
-/* line 323, ../sass/home.scss */
+/* line 341, ../sass/home.scss */
 #hot_content {
   margin-bottom: 30px;
 }
 
-/* line 327, ../sass/home.scss */
+/* line 345, ../sass/home.scss */
 .hot .hot-head {
   margin-bottom: 30px;
   *zoom: 1;
@@ -533,7 +555,7 @@ ul {
 .hot .hot-head:after {
   clear: both;
 }
-/* line 331, ../sass/home.scss */
+/* line 349, ../sass/home.scss */
 .hot .hot-head .hot-title {
   float: left;
   width: 186px;
@@ -545,27 +567,27 @@ ul {
   background-image: url(../image/hot-title-bg.png);
   background-repeat: no-repeat;
 }
-/* line 342, ../sass/home.scss */
+/* line 360, ../sass/home.scss */
 .hot .hot-head .hot-more {
   float: right;
   height: 40px;
   line-height: 40px;
 }
 
-/* line 354, ../sass/home.scss */
+/* line 372, ../sass/home.scss */
 .material {
   border: 1px solid #333;
   padding: 24px 5px 5px 5px;
 }
-/* line 358, ../sass/home.scss */
+/* line 376, ../sass/home.scss */
 .material .material-image {
   text-align: center;
 }
-/* line 364, ../sass/home.scss */
+/* line 382, ../sass/home.scss */
 .material .material-descript {
   padding: 12px;
 }
-/* line 366, ../sass/home.scss */
+/* line 384, ../sass/home.scss */
 .material .material-descript .price {
   *zoom: 1;
 }
@@ -578,38 +600,38 @@ ul {
 .material .material-descript .price:after {
   clear: both;
 }
-/* line 369, ../sass/home.scss */
+/* line 387, ../sass/home.scss */
 .material .material-descript .price .real {
   color: #f00;
 }
-/* line 375, ../sass/home.scss */
+/* line 393, ../sass/home.scss */
 .material .material-descript .name {
   color: #000;
   font-size: 16px;
 }
-/* line 380, ../sass/home.scss */
+/* line 398, ../sass/home.scss */
 .material .material-descript .bug button {
   border: 1px solid #aaa;
   background-color: transparent;
 }
 
-/* line 388, ../sass/home.scss */
+/* line 406, ../sass/home.scss */
 .footer-inner {
   padding: 42px 100px 138px 100px;
 }
-/* line 391, ../sass/home.scss */
+/* line 409, ../sass/home.scss */
 .footer-inner .shop-contact {
   float: left;
   padding: 12px 16px;
   border: 1px solid #333;
   text-align: center;
 }
-/* line 397, ../sass/home.scss */
+/* line 415, ../sass/home.scss */
 .footer-inner .shop-contact span {
   display: block;
   margin-top: 6px;
 }
-/* line 402, ../sass/home.scss */
+/* line 420, ../sass/home.scss */
 .footer-inner .shop-info {
   float: left;
   *zoom: 1;
@@ -623,32 +645,32 @@ ul {
 .footer-inner .shop-info:after {
   clear: both;
 }
-/* line 406, ../sass/home.scss */
+/* line 424, ../sass/home.scss */
 .footer-inner .shop-info ul {
   float: left;
   margin-left: 90px;
 }
-/* line 412, ../sass/home.scss */
+/* line 430, ../sass/home.scss */
 .footer-inner .shop-info ul > li > a {
   color: #666;
   font-size: 15px;
   line-height: 26px;
 }
-/* line 418, ../sass/home.scss */
+/* line 436, ../sass/home.scss */
 .footer-inner .shop-info ul > li:first-child {
   margin-bottom: 10px;
 }
-/* line 421, ../sass/home.scss */
+/* line 439, ../sass/home.scss */
 .footer-inner .shop-info ul > li:first-child > a {
   font-size: 20px;
   color: #333;
 }
-/* line 428, ../sass/home.scss */
+/* line 446, ../sass/home.scss */
 .footer-inner .web-footer {
   margin-top: 42px;
   text-align: center;
 }
-/* line 432, ../sass/home.scss */
+/* line 450, ../sass/home.scss */
 .footer-inner .web-footer ul {
   display: inline-block;
   zoom: 1;
@@ -664,43 +686,43 @@ ul {
 .footer-inner .web-footer ul:after {
   clear: both;
 }
-/* line 436, ../sass/home.scss */
+/* line 454, ../sass/home.scss */
 .footer-inner .web-footer ul li {
   float: left;
 }
-/* line 438, ../sass/home.scss */
+/* line 456, ../sass/home.scss */
 .footer-inner .web-footer ul li a {
   display: block;
   padding: 0px 10px;
   color: #666;
 }
-/* line 443, ../sass/home.scss */
+/* line 461, ../sass/home.scss */
 .footer-inner .web-footer ul li + li {
   border-left: 1px solid #aaa;
 }
 
 /* 回到顶部 */
-/* line 451, ../sass/home.scss */
+/* line 469, ../sass/home.scss */
 .popup {
   position: fixed;
   right: 10px;
   bottom: 20px;
 }
-/* line 457, ../sass/home.scss */
+/* line 475, ../sass/home.scss */
 .popup .picture img {
   width: 121px;
   height: 81px;
 }
-/* line 462, ../sass/home.scss */
+/* line 480, ../sass/home.scss */
 .popup .qrcode {
   padding: 10px;
   border: 1px solid #e0e0e0;
 }
-/* line 466, ../sass/home.scss */
+/* line 484, ../sass/home.scss */
 .popup .qrcode img {
   width: 100px;
 }
-/* line 470, ../sass/home.scss */
+/* line 488, ../sass/home.scss */
 .popup .cart, .popup .toTop {
   margin-top: -1px;
   border: 1px solid #e0e0e0;
@@ -709,11 +731,11 @@ ul {
   background-position: 9px center;
   background-repeat: no-repeat;
 }
-/* line 478, ../sass/home.scss */
+/* line 496, ../sass/home.scss */
 .popup .cart {
   background-image: url(../image/cart.png);
 }
-/* line 481, ../sass/home.scss */
+/* line 499, ../sass/home.scss */
 .popup .toTop {
   background-image: url(../image/to-top.png);
 }
