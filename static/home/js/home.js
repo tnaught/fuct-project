@@ -48,12 +48,17 @@ $('.banner').slick({
     'dots':true
 });
 
+var overTime, outTime;
 $('.category').on('mouseover', '.child li', function(e) {
-    setTimeout(function() {
+    outTime && clearTimeout();
+    overTime = setTimeout(function() {
         $('.category .category-more').show();
     }, 200)
 });
 $('.category').on('mouseout', '.child li', function(e) {
-    $('.category .category-more').hide();
+    outTime && clearTimeout();
+    outTime = setTimeout(function() {
+        $('.category .category-more').hide();
+    }, 200)
 });
 })
