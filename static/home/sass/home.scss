@@ -447,3 +447,38 @@ $good-margin: 20px;
         }
     }
 }
+/* 回到顶部 */
+.popup {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+
+    .picture {
+        img {
+            width: 121px;
+            height: 81px;
+        }
+    }
+    .qrcode {
+        padding: 10px;
+        border: 1px solid #e0e0e0;
+        
+        img {
+            width: 100px;
+        }
+    }
+    .cart, .toTop {
+        margin-top:-1px;
+        border: 1px solid #e0e0e0;
+        padding: 10px 10px 10px 38px;
+        font-weight: 700;
+        background-position: 9px center;
+        background-repeat: no-repeat;
+    }
+    .cart {
+        background-image: url(../image/cart.png);
+    }
+    .toTop {
+        background-image: url(../image/to-top.png);
+    }
+}

@@ -678,3 +678,42 @@ ul {
 .footer-inner .web-footer ul li + li {
   border-left: 1px solid #aaa;
 }
+
+/* 回到顶部 */
+/* line 451, ../sass/home.scss */
+.popup {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+}
+/* line 457, ../sass/home.scss */
+.popup .picture img {
+  width: 121px;
+  height: 81px;
+}
+/* line 462, ../sass/home.scss */
+.popup .qrcode {
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+}
+/* line 466, ../sass/home.scss */
+.popup .qrcode img {
+  width: 100px;
+}
+/* line 470, ../sass/home.scss */
+.popup .cart, .popup .toTop {
+  margin-top: -1px;
+  border: 1px solid #e0e0e0;
+  padding: 10px 10px 10px 38px;
+  font-weight: 700;
+  background-position: 9px center;
+  background-repeat: no-repeat;
+}
+/* line 478, ../sass/home.scss */
+.popup .cart {
+  background-image: url(../image/cart.png);
+}
+/* line 481, ../sass/home.scss */
+.popup .toTop {
+  background-image: url(../image/to-top.png);
+}
