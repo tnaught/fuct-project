@@ -1,0 +1,71 @@
+$contentHeight: 160px;
+.recommend {
+    background-color: $topbarColor;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @include clearfix;
+
+    .recommend-title {
+        float: left;
+        padding: 28px 12px;
+        height: $contentHeight - 28px * 2;
+        width: 50px - 12px * 2;
+        text-align: center;
+        line-height: 1;
+        font-size: 24px;
+        color: #fff;
+        background-color: $btn-primary;
+    }
+    .recommend-content {
+        margin-left: 50px;
+        height: $contentHeight;
+
+        .recommend-item {
+            padding-left: 15px;
+
+            @include clearfix;
+        }
+        .pic {
+            float: left;
+            height: $contentHeight;
+            background-color: #fff;
+
+            .pic-inner {
+                padding: 20px 35px;
+                img {
+                    height: $contentHeight - 20px * 2;
+                }
+            }
+        }
+        .descript {
+            float: left;
+            width: 205px;
+            height: $contentHeight;
+            border-left: 1px solid #f0f0f0;
+            background-color: #fff;
+
+            .des-inner {
+                padding: 13px;
+                font-size: 16px;
+                color: $darkColor;
+
+                .price {
+                    color: $btn-primary;
+
+                    .num {
+                        font-family: Arial;
+                        letter-spacing: 1px;
+                        font-size: 21px;
+                    }
+                }
+                .btn {
+                    padding: 5px 8px;
+                    float: right;
+                    font-size: 14px;
+                    background-color: $btn-primary;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

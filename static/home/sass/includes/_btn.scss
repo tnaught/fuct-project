@@ -1,4 +1,14 @@
 .btn {
-    padding: 0;
+    outline: none;
+    padding: 6px 10px;
     border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $btn-primary;
+}
+.btn-default {
+    border-color: $border-default-color;
 }

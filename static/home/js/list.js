@@ -44,10 +44,7 @@ $('li', $nav).hover(
     }
 );
 
-$('.banner').slick({
-    'dots':true
-});
-
+/*分类*/
 var overTime, outTime;
 $('.category .child li').on('mouseover', function(e) {
     outTime && clearTimeout(outTime);
@@ -61,5 +58,22 @@ $('.category .child li').on('mouseover', function(e) {
     outTime = setTimeout(function() {
         $('.category .category-more').hide();
     }, 200)
+});
+$('.category').on('click', '.dropdown-arrow', function() {
+    if($(this).hasClass('down')) {
+        $(this).removeClass('down').addClass('up');
+    }
+    else {
+        $(this).removeClass('up').addClass('down');
+
+    }
+    $(this).closest('.category').toggleClass('collapse');
+})
+
+/*推荐*/
+$('.recommend-content').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
 });
 })

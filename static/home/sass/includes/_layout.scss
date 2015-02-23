@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 .block-center {
     margin-left: auto;
     margin-right: auto;
@@ -16,6 +18,19 @@
 .hide {
     display: none !important;
 }
+.pdl0 {
+    padding-left: 0!important;
+}
+.pdr0 {
+    padding-right: 0!important;
+}
+body {
+    background-color: #fff;
+    line-height:  $lineHeight;
+    font-size: $fontSize;
+    color: $lightColor;
+    font-family: '黑体' Helvetica Arial sans-serif; 
+}
 .container {
     padding-left: 5px;
     padding-right: 5px;
@@ -28,4 +43,12 @@
         margin-left: -5px;
         margin-right: -5px;
     }
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }

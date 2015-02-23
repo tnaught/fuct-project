@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.nav {
+    position: relative;
+    height: $navbarHeight;
+    padding-left: 50px;
+    background-image: url("../image/nav-bottom-line.png");
+    background-color: #000;
+    background-size: 72px auto;
+    background-position: 50px bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    @include transition-property(background-position);
+    @include transition-duration(.4s);
+
+    @include clearfix;
+
+    > li {
+        float: left;
+        a {
+            display: block;
+            padding-top: ($navbarHeight - 16px*$lineHeight)/2;
+            padding-bottom: ($navbarHeight - 16px*$lineHeight)/2;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+            color: #fff;
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+}

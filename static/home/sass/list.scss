@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+@import "normalize";
+@import "compass/css3";
+@import "includes/param";
+@import "includes/mixin";
+@import "includes/layout";
+@import "includes/grid";
+@import "includes/btn";
+@import "includes/dropdown";
+@import "includes/slick";
+
+@import "includes/topbar";
+@import "includes/shopbar";
+@import "includes/category";
+@import "includes/nav";
+@import "includes/material";
+@import "includes/footer";
+@import "includes/recommend";
+
+.sort-nav {
+    @include clearfix;
+
+    > li {
+        float: left;
+        display: block;
+        padding: 0px 11px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 16px;
+        color: $darkColor;
+        border: 1px solid #e0e0e0;
+
+        + li {
+            border-left: 0;
+        }
+    }
+    .active {
+        color: $btn-primary;
+        border-color: $btn-primary;
+    }
+}
+.breadcrumb {
+    padding-left: 17px;
+    @include clearfix;
+    > li {
+       float: left;
+       + li {
+            &:before {
+                margin-left: 3px;
+                margin-right: 3px;
+                content: "\003e";
+            }
+       }
+       a {
+            padding: 8px;
+            line-height: 74px;
+            font-size: 18px;
+            color: $darkColor;
+       }
+       &:last-child {
+            a {
+                border: 1px solid $btn-primary;
+                color: $btn-primary;
+            }
+       }
+        .close {
+            @include display-inline-block;
+            width: 7px;
+            height: 7px;
+            vertical-align: middle;
+            margin-left: 5px;
+            background-image: url("../image/close.png");
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+    }
+}
+.select-area {
+    li {
+        @include clearfix;
+        border-top: 1px solid $border-default-color;
+        border-bottom: 1px solid $border-default-color;
+        padding: 18px;
+        margin-top: -1px;
+        font-size: 18px;
+    }
+    .select-title {
+        color: #8d8d8d;
+        float: left;
+    }
+    .select-num {
+        color: #8d8d8d;
+    }
+    .radio-list, .checkbox-list {
+        float: left;
+        color: $darkColor;
+        margin-left: 27px;
+    }
+}
+.sort-area {
+    padding: 18px;
+
+    .sort-nav {
+        float: left;
+    }
+    input {
+        height: 26px;
+    }
+    button {
+        height: 32px;
+        margin-left: 12px;
+    }
+    .separate {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .price-from, .price-to {
+        @include display-inline-block;
+        position: relative;
+        font-size: 16px;
+
+        &:before {
+            content: "\00a5";
+            position: absolute;
+            left: 8px;
+            font-family: Arial;
+            line-height: 32px;
+        }
+        input {
+            width: 50px;
+            padding-left: 18px; 
+        }
+    }
+    .price-from {
+        margin-left: 19px;
+    }
+}
+
