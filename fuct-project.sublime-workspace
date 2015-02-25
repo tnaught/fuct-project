@@ -4,12 +4,72 @@
 		"selected_items":
 		[
 			[
-				"padding",
-				"padding-left"
+				"scr",
+				"scrollTop"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"pro",
+				"productHeader"
+			],
+			[
+				"dis",
+				"display-inline-block"
+			],
+			[
+				"inlin",
+				"display-inline-block"
+			],
+			[
+				"boe",
+				"border-default-color"
 			],
 			[
 				"in",
-				"includes"
+				"include"
+			],
+			[
+				"entit",
+				"entity-item"
+			],
+			[
+				"displa",
+				"display-inline-block"
+			],
+			[
+				"border",
+				"border-default-color"
+			],
+			[
+				"no-",
+				"no-repeat"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"pri",
+				"btn-primary"
+			],
+			[
+				"i",
+				"import"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"topbar",
+				"topbarColor"
+			],
+			[
+				"padding",
+				"padding-left"
 			],
 			[
 				"mouse",
@@ -34,10 +94,6 @@
 			[
 				"bac",
 				"background-position-x"
-			],
-			[
-				"dis",
-				"display-inline-block"
 			],
 			[
 				"gri",
@@ -100,10 +156,6 @@
 				"script"
 			],
 			[
-				"pro",
-				"prototype"
-			],
-			[
 				"clea",
 				"clearfix"
 			]
@@ -112,90 +164,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/home.html",
+			"file": "app/detail.html",
 			"settings":
 			{
-				"buffer_size": 25637,
+				"buffer_size": 50336,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "static/home/js/home.js",
+			"file": "static/home/sass/detail.scss",
 			"settings":
 			{
-				"buffer_size": 1622,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/list.html",
-			"settings":
-			{
-				"buffer_size": 11696,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "static/home/sass/list.scss",
-			"settings":
-			{
-				"buffer_size": 401,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "static/home/sass/includes/_param.scss",
-			"settings":
-			{
-				"buffer_size": 123,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "static/home/js/list.js",
-			"settings":
-			{
-				"buffer_size": 1863,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "static/home/sass/home.scss",
-			"settings":
-			{
-				"buffer_size": 3638,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "static/home/sass/includes/_layout.scss",
-			"settings":
-			{
-				"buffer_size": 795,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "static/home/sass/includes/_category.scss",
-			"settings":
-			{
-				"buffer_size": 2486,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "static/home/sass/includes/_grid.scss",
-			"settings":
-			{
-				"buffer_size": 722,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "static/home/css/home.css",
-			"settings":
-			{
-				"buffer_size": 31333,
+				"buffer_size": 12496,
 				"line_ending": "Windows"
 			}
 		}
@@ -263,7 +243,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -295,27 +275,66 @@
 	],
 	"file_history":
 	[
-		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/list.scssc",
+		"/D/fuct-project/static/home/js/detail.js",
+		"/D/fuct-project/static/home/sass/includes/_nav.scss",
 		"/D/fuct-project/app/list.html",
-		"/D/fuct-project/static/home/sass/home.scss",
+		"/D/fuct-project/static/home/css/detail.css",
+		"/D/fuct-project/static/home/sass/includes/_material.scss",
+		"/D/fuct-project/static/home/sass/includes/_mixin.scss",
+		"/D/fuct-project/static/home/js/list.js",
 		"/D/fuct-project/static/home/sass/includes/_layout.scss",
+		"/D/fuct-project/app/home.html",
+		"/D/fuct-project/static/home/js/home.js",
+		"/D/fuct-project/static/home/sass/includes/_param.scss",
+		"/D/fuct-project/static/home/sass/home.scss",
+		"/D/fuct-project/static/home/sass/list.scss",
+		"/D/fuct-project/static/home/sass/includes/_recommend.scss",
+		"/D/fuct-project/ui/品牌商定制商城/resources/scripts/axure/repeater.js.orig",
+		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/material.scssc",
+		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/detail.scssc",
+		"/D/fuct-project/app/detail.html",
+		"/D/fuct-project/app/demo.html",
+		"/D/fuct-project/static/home/sass/detail.scss",
+		"/D/fuct-project/static/home/sass/includes/_category.scss",
+		"/D/fuct-project/static/home/sass/includes/_grid.scss",
+		"/D/fuct-project/static/home/css/common.css",
+		"/D/fuct-project/app/list_nodata.html",
+		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_nav.scssc",
+		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_navs.scssc",
+		"/D/fuct-project/.sass-cache/6df4472dadac00fcd2831be1c2ca1abe41163e39/_nav-vertical-align.scssc",
+		"/D/fuct-project/static/home/sass/includes/_dropdown.scss",
+		"/D/fuct-project/static/home/css/list.css",
+		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_category.scssc",
+		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_glyphicons.scssc",
+		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_pager.scssc",
+		"/D/fuct-project/static/home/sass/includes/_btn.scss",
+		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_btn.scssc",
+		"/D/fuct-project/static/lib/bootstrap/bootstrap.js",
+		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_recommend.scssc",
+		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_responsive-embed.scssc",
+		"/D/fuct-project/README.md",
+		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/tasks/converter/char_string_scanner.rb",
+		"/D/fuct-project/ui/品牌商定制商城/resources/scripts/axutils.js",
+		"/D/fuct-project/static/home/sass/includes/_footer.scss",
+		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_footer.scssc",
+		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_forms.scssc",
+		"/D/fuct-project/fuct-project.sublime-project",
+		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_material.scssc",
+		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_param.scssc",
+		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/test/dummy_rails/config/initializers/wrap_parameters.rb",
+		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/assets/stylesheets/bootstrap/_responsive-embed.scss",
+		"/D/fuct-project/other/bootstrap-sass-3.3.2/pax_global_header",
+		"/D/fuct-project/static/home/css/home.css",
+		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/list.scssc",
 		"/D/fuct-project/ui/品牌商定制商城/plugins/sitemap/sitemap.js",
 		"/D/fuct-project/static/home/sass/includes/_shopbar.scss",
-		"/D/fuct-project/static/home/sass/includes/_footer.scss",
-		"/D/fuct-project/static/home/js/home.js",
-		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_category.scssc",
 		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_component-animations.scssc",
-		"/D/fuct-project/static/home/css/common.css",
 		"/D/fuct-project/static/home/sass/includes/_topbar.scss",
-		"/D/fuct-project/static/home/sass/includes/_nav.scss",
-		"/D/fuct-project/static/home/sass/includes/_category.scss",
 		"/D/fuct-project/static/home/sass/common.scss",
 		"/D/aideal/1/index.html",
 		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/common.scssc",
-		"/D/fuct-project/static/home/sass/includes/_mixin.scss",
 		"/D/fuct-project/static/home/sass/includes/_slick.scss",
 		"/D/aideal/1/index.php",
-		"/D/fuct-project/static/lib/bootstrap/bootstrap.js",
 		"/D/fuct-project/static/home/sass/bootstrap-custom.scss",
 		"/D/fuct-project/static/home/sass/bootstrap/_variables.scss",
 		"/D/fuct-project/.gitignore",
@@ -326,15 +345,12 @@
 		"/D/fuct-project/static/home/sass/bootstrap/_mixins.scss",
 		"/D/fuct-project/static/home/sass/bootstrap/mixins/_nav-divider.scss",
 		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/test/node_mincer_test.rb",
-		"/D/fuct-project/static/home/sass/includes/_grid.scss",
 		"/D/fuct-project/app/test.html",
 		"/D/fuct-project/static/home/sass/includes/_navbar.scss",
 		"/D/fuct-project/static/home/sass/bootstrap/_navbar.scss",
 		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_navbar.scssc",
 		"/D/fuct-project/.sass-cache/70fe894ca3fe9e44eac924ea9efcf02e195b6869/_navbar.scssc",
 		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_navbar.scssc",
-		"/D/fuct-project/.sass-cache/6df4472dadac00fcd2831be1c2ca1abe41163e39/_nav-vertical-align.scssc",
-		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_navs.scssc",
 		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_layout.scssc",
 		"/D/fuct-project/.sass-cache/23f3134fb3e1243ab5cdf80fe18e0782f3dd71e4/_layout.scssc",
 		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_labels.scssc",
@@ -359,11 +375,9 @@
 		"/D/fuct-project/.sass-cache/70fe894ca3fe9e44eac924ea9efcf02e195b6869/_dropdowns.scssc",
 		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_dropdowns.scssc",
 		"/D/fuct-project/other/960-Grid-System-master/code/demo_rtl.html",
-		"/D/fuct-project/app/demo.html",
 		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
 		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/Gemfile",
 		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/home.scssc",
-		"/D/fuct-project/static/home/css/home.css",
 		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/composer.json",
 		"/D/fuct-project/config.rb",
 		"/D/fuct-project/static/home/sass/home_old.scss",
@@ -388,31 +402,7 @@
 		"/E/private/fuck-project/static/home/sass/includes/_grid.scss",
 		"/E/private/fuck-project/static/home/sass/includes/_layout.scss",
 		"/E/private/fuck-project/app/test.html",
-		"/E/private/fuck-project/app/demo.html",
-		"/E/private/fuck-project/README.md",
-		"/D/fuck-project/static/home/css/home.css",
-		"/D/fuck-project/config.rb",
-		"/D/fuck-project/app/test.html",
-		"/D/fuck-project/static/home/sass/includes/_carousel.scss",
-		"/D/fuck-project/static/home/sass/includes/_btn.scss",
-		"/D/fuck-project/static/home/sass/includes/_layout.scss",
-		"/D/fuck-project/static/home/js/src/main.js",
-		"/D/fuck-project/sea-modules/jquery/1.10.2/jquery.js",
-		"/D/fuck-project/static/home/js/src/carousel.js",
-		"/C/Users/tnaught/Desktop/xichao/田琴/modify.txt",
-		"/D/fuck-project/static/home/sass/screen.scss",
-		"/D/fuck-project/sea-modules/holder/holder.js",
-		"/D/fuck-project/test.html",
-		"/D/fuck-project/home.html",
-		"/D/fuck-project/README.md",
-		"/D/fuck-project/sass/_grid.scss",
-		"/D/fuck-project/sass/_navbar.scss",
-		"/D/fuck-project/stylesheets/screen.css",
-		"/D/fuck-project/sass/_layout.scss",
-		"/D/fuck-project/sass/screen.scss",
-		"/D/fuck-project/.gitignore",
-		"/C/Users/tnaught/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/tnaught/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+		"/E/private/fuck-project/app/demo.html"
 	],
 	"find":
 	{
@@ -430,6 +420,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".bug",
+			"可列xxxx",
+			"dot",
+			"col",
+			".col",
+			"<div></div>",
+			"&yen;880促",
+			"促",
+			"颜色:PG3321黑珍",
+			"<img src=\"\" alt=\"\" class=\"portrait\">昵称",
+			"col",
+			"home/material.png",
+			"material",
+			"prim",
+			"num",
+			".num",
+			".price",
+			"<img src=\"\" alt=\"\">",
+			"breakcrumb",
+			"<span class=\"select-num\">(n件)</span>",
+			"ebebeb",
+			"(n件)",
+			"选择类别:",
+			"+",
+			"#000",
+			"radio",
+			"880",
+			"xxx人购买",
+			"$good-number-per-row",
+			"880",
+			"<div class=\"descript\">\n                        <div class=\"title\">\n                            科勒Kohler厨房龙头K-668 T-CP\n\n                        </div>\n                        <div class=\"about\">\n                            科勒Kohler厨房\n                        </div>\n                        <div class=\"price\">\n                            特价：￥880\n                        </div>\n                        <button class=\"btn\">立即抢购</button>\n                    </div>",
+			"<div class=\"pic\">\n                        <img src=\"../static/home/image/material.png\" alt=\"\">\n                    </div>",
+			"<div class=\"pic\">\n                        <img src=\"\" alt=\"\">\n                    </div>",
 			"北京",
 			"dropdown-arrow",
 			"dropdown",
@@ -489,328 +512,62 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/home.html",
+					"file": "app/detail.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25637,
+						"buffer_size": 50336,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9304,
-								9304
+								20818,
+								20818
 							]
 						],
 						"settings":
 						{
-							"origin_encoding": "UTF-8",
+							"auto_name": "",
+							"history_list_is_closing": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5567.0,
+						"translation.y": 12652.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "static/home/js/home.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1622,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1622
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 528.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/list.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11696,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8491,
-								8491
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1827.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "static/home/sass/list.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 401,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								300,
-								300
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "static/home/sass/includes/_param.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								123,
-								123
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 5,
-					"file": "static/home/js/list.js",
+					"buffer": 1,
+					"file": "static/home/sass/detail.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1863,
+						"buffer_size": 12496,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1655,
-								1655
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 964.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "static/home/sass/home.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3638,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17,
-								17
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "static/home/sass/includes/_layout.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 795,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								81,
-								81
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 132.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "static/home/sass/includes/_category.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2486,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1990,
-								1990
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1527.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "static/home/sass/includes/_grid.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 722,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								56,
-								56
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "static/home/sass/list.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 401,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								399,
-								399
+								11856,
+								11856
 							]
 						],
 						"settings":
@@ -818,40 +575,10 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 112.0,
+						"translation.y": 13134.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "static/home/css/home.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31333,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6257,
-								6257
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1628.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -885,7 +612,7 @@
 		"cols":
 		[
 			0.0,
-			0.578570985334,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -915,28 +642,104 @@
 		"selected_items":
 		[
 			[
+				"detail.css",
+				"static\\home\\css\\detail.css"
+			],
+			[
+				"detail.js",
+				"static\\home\\js\\detail.js"
+			],
+			[
+				"nav.scss",
+				"static\\home\\sass\\includes\\_nav.scss"
+			],
+			[
+				"material.scss",
+				"static\\home\\sass\\includes\\_material.scss"
+			],
+			[
+				"list.html",
+				"app\\list.html"
+			],
+			[
+				"home.html",
+				"app\\home.html"
+			],
+			[
+				"recommend",
+				"static\\home\\sass\\includes\\_recommend.scss"
+			],
+			[
 				"list.scss",
 				"static\\home\\sass\\list.scss"
+			],
+			[
+				"home.scss",
+				"static\\home\\sass\\home.scss"
+			],
+			[
+				"material",
+				"static\\home\\sass\\includes\\_material.scss"
+			],
+			[
+				"param",
+				"static\\home\\sass\\includes\\_param.scss"
+			],
+			[
+				"list.js",
+				"static\\home\\js\\list.js"
+			],
+			[
+				"detail.scss",
+				"static\\home\\sass\\detail.scss"
 			],
 			[
 				"grid.scss",
 				"static\\home\\sass\\includes\\_grid.scss"
 			],
 			[
+				"category",
+				"static\\home\\sass\\includes\\_category.scss"
+			],
+			[
 				"home.js",
 				"static\\home\\js\\home.js"
 			],
 			[
-				"home.sc",
-				"static\\home\\sass\\home.scss"
+				"category.scss",
+				"static\\home\\sass\\includes\\_category.scss"
 			],
 			[
-				"category",
+				"list.css",
+				"static\\home\\css\\list.css"
+			],
+			[
+				"para",
+				"static\\home\\sass\\includes\\_param.scss"
+			],
+			[
+				"btn",
+				"static\\home\\sass\\includes\\_btn.scss"
+			],
+			[
+				"recommend.scss",
+				"static\\home\\sass\\includes\\_recommend.scss"
+			],
+			[
+				"cate",
 				"static\\home\\sass\\includes\\_category.scss"
 			],
 			[
 				"layout",
 				"static\\home\\sass\\includes\\_layout.scss"
+			],
+			[
+				"footer.scss",
+				"static\\home\\sass\\includes\\_footer.scss"
+			],
+			[
+				"home.sc",
+				"static\\home\\sass\\home.scss"
 			],
 			[
 				"layout.scss",
@@ -975,10 +778,6 @@
 				"static\\home\\sass\\bootstrap\\_dropdowns.scss"
 			],
 			[
-				"home.scss",
-				"static\\home\\sass\\home.scss"
-			],
-			[
 				"common.css",
 				"static\\home\\css\\common.css"
 			],
@@ -1009,7 +808,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -1017,7 +816,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 164.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

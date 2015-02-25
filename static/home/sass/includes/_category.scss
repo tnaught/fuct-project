@@ -24,7 +24,9 @@
         width: 100%;
         height: 438px;
         border: 1px solid #aaa;
+        z-index: 1;
         overflow: hidden;
+        background-color: #fff;
         @include transition-property(height);
         @include transition-duration(.4s);
 

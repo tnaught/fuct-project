@@ -64,17 +64,17 @@
                 color: $btn-primary;
             }
        }
-        .close {
-            @include display-inline-block;
-            width: 7px;
-            height: 7px;
-            vertical-align: middle;
-            margin-left: 5px;
-            background-image: url("../image/close.png");
-            background-position: center center;
-            background-repeat: no-repeat;
-        }
     }
+}
+.close {
+    @include display-inline-block;
+    width: 7px;
+    height: 7px;
+    vertical-align: middle;
+    margin-left: 5px;
+    background-image: url("../image/close.png");
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .select-area {
     li {
@@ -136,4 +136,15 @@
         margin-left: 19px;
     }
 }
-
+.result {
+    p {
+        padding-top: 121px - 18px;
+        padding-bottom: 359px - 78px;
+        text-align: center;
+        font-size: 16px;
+        color: $darkColor;
+    }
+    .keyword {
+        color: $btn-primary;
+    }
+}

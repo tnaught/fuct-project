@@ -6,7 +6,6 @@ $row-width: 1200px;
 .row {
     margin-left: -$grid-gutter;
     margin-right: -$grid-gutter;
-    overflow: hidden;
 
     @include clearfix;
 }
@@ -24,13 +23,13 @@ $row-width: 1200px;
 }
 
 @for $i from 1 through $grid-number {
-    .row .grid-offset-#{$i} {
+    .grid-offset-#{$i} {
         margin-left: $row-width/$grid-number * $i;
     }
 }
 
 @for $i from 1 through $grid-number {
-    .row .grid-pull-#{$i} {
+    .grid-pull-#{$i} {
         margin-right: $row-width/$grid-number * $i;
     }
 }
