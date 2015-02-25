@@ -76,14 +76,47 @@
 .promotion-item {
     padding-left: 39px;
     padding-right: 24px;
-    background-image: url("../image/hot.png");
     background-repeat: no-repeat;
-    background-position: left top;
     margin-bottom:20px;
     border: 1px solid $border-default-color;
-
+    
+    &.hot {
+        background-image: url("../image/hot.png");
+        background-position: left top;
+    }
+    &.overdue {
+        background-image: url("../image/overdue.png");
+        background-position: 70% center;
+    }
     .title {
         margin-top: 24px;
+        margin-bottom: 20px;
+        font-size: 21px;
+        color: #000;
+        font-weight: 700;
+        font-family: tahoma,arial,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+    }
+    .date, .address { 
+        font-size: 18px;
+        color: #000;
+
+        .value {
+            padding-left: 6px;
+        }
+    }
+    .date {
+        margin-bottom: 6px;
+    }
+    .address {
+        margin-bottom: 12px;
+    }
+    .address a {
+        color: #000;
+    }
+}
+
+.promotion-detail {
+    .title {
         margin-bottom: 20px;
         font-size: 21px;
         color: #000;
