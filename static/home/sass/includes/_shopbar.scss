@@ -5,8 +5,9 @@ $shopbarHeight: 150px;
     height: 120px;
     padding-top: ($shopbarHeight - 120)/2;
     padding-bottom: ($shopbarHeight - 120)/2;
+    font-family: tahoma,arial,'Hiragino Sans GB','黑体',sans-serif;
     @include clearfix;
-
+    
     .qrcode {
         @include display-inline-block;
         margin-right: 40px;

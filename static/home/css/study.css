@@ -1,36 +1,22 @@
 @charset "UTF-8";
 /*变量与占位符*/
-/* line 7, ../sass/study.scss */
 .border-top {
-  border-top: 1px solid #ccc;
-}
+  border-top: 1px solid #ccc; }
 
-/* line 11, ../sass/study.scss */
 body {
-  font: 12px/1.5;
-}
+  font: 12px/1.5; }
 
-/* line 16, ../sass/study.scss */
 .module.module-something {
-  background: red;
-}
+  background: red; }
 
 /*数组*/
-/* line 22, ../sass/study.scss */
 a {
-  color: #08c;
-}
-/* line 25, ../sass/study.scss */
-a:hover {
-  color: #333;
-}
+  color: #08c; }
+  a:hover {
+    color: #333; }
 
-/* line 42, ../sass/study.scss */
 .some-selector {
-  display: block;
-}
+  display: block; }
 
-/* line 49, ../sass/study.scss */
 .a {
-  width: 300px;
-}
+  width: 300px; }

@@ -22,9 +22,9 @@ javascripts_dir = "static/home/js"
 # relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
-#line_comments = false
+line_comments = false
 #压缩比例
-output_style = (environment == :development) ? :expanded : :compressed
+output_style = (environment == :development) ? :nested : :compressed
 
 #调试信息
 sass_options = (environment == :development && firesass == true) ? {:debug_info => true} : {}

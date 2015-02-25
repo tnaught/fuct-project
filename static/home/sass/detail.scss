@@ -288,16 +288,6 @@
     }
 }
 
-.left-side {
-    .pic-inner {
-        overflow: hidden;
-        
-        img {
-            width: 100%;
-        }
-    }
-}
-
 .package {
     .package-header {
         border: 1px solid $border-default-color;
@@ -658,6 +648,15 @@
                     font-size: 18px;
                 }
             }
+        }
+    }
+}
+.left-side {
+    .pic-inner {
+        overflow: hidden;
+        
+        img {
+            width: 100%;
         }
     }
 }
