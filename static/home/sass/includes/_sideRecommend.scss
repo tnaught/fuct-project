@@ -1,0 +1,36 @@
+.left-side {
+    .recommend-header {
+        border: 1px solid $border-default-color;
+        font-size: 21px;
+        color: $darkColor;
+        line-height: 57px;
+        text-align: center;
+        font-weight: 700;
+        font-family: tahoma,arial,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+        background-color: #f7f7f7;
+    }
+    .material {
+        margin-top: -1px;
+        margin-bottom: 0px;
+        padding: 0;
+        
+        .material-image {
+            padding: 20px;
+        }
+        .material-descript {
+            border-top: 1px solid $border-default-color;
+            .bug {
+                button {
+                    border-color: transparent;
+                    background-color: $btn-primary;
+                    color: #fff;
+                }
+                span {
+                    color: $btn-primary;
+                    font-family: Arial;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

@@ -14,64 +14,10 @@
 @import "includes/dropdown";
 @import "includes/nav";
 @import "includes/material";
+@import "includes/breadcrumb";
+@import "includes/sideRecommend";
 @import "includes/footer";
 
-.breadcrumb {
-    padding-left: 17px;
-    @include clearfix;
-    > li {
-       float: left;
-       + li {
-            &:before {
-                margin-left: 3px;
-                margin-right: 3px;
-                content: "\003e";
-            }
-       }
-       a {
-            padding: 8px;
-            line-height: 55px;
-            color: $lightColor;
-       }
-    }
-}
-
-.left-side {
-    .recommend-header {
-        border: 1px solid $border-default-color;
-        font-size: 21px;
-        color: $darkColor;
-        line-height: 57px;
-        text-align: center;
-        font-weight: 700;
-        font-family: tahoma,arial,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
-        background-color: #f7f7f7;
-    }
-    .material {
-        margin-top: -1px;
-        margin-bottom: 0px;
-        padding: 0;
-        
-        .material-image {
-            padding: 20px;
-        }
-        .material-descript {
-            border-top: 1px solid $border-default-color;
-            .bug {
-                button {
-                    border-color: transparent;
-                    background-color: $btn-primary;
-                    color: #fff;
-                }
-                span {
-                    color: $btn-primary;
-                    font-family: Arial;
-                    font-size: 18px;
-                }
-            }
-        }
-    }
-}
 
 .promotion-item {
     padding-left: 39px;

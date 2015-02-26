@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@import "normalize";
+@import "compass/css3";
+@import "includes/param";
+@import "includes/mixin";
+@import "includes/layout";
+@import "includes/grid";
+@import "includes/btn";
+
+@import "includes/topbar";
+@import "includes/shopbar";
+@import "includes/category";
+@import "includes/dropdown";
+@import "includes/nav";
+@import "includes/material";
+@import "includes/breadcrumb";
+@import "includes/sideRecommend";
+@import "includes/footer";
+
+.left-side {
+    img {
+        width: 100%;
+    }
+}

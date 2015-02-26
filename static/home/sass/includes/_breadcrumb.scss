@@ -1,0 +1,18 @@
+.breadcrumb {
+    @include clearfix;
+    > li {
+       float: left;
+       + li {
+            &:before {
+                margin-left: 3px;
+                margin-right: 3px;
+                content: "\003e";
+            }
+       }
+       a {
+            padding: 8px;
+            line-height: 55px;
+            color: $lightColor;
+       }
+    }
+}
