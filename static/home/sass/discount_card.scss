@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@import "normalize";
+@import "compass/css3";
+@import "includes/param";
+@import "includes/mixin";
+@import "includes/layout";
+@import "includes/grid";
+@import "includes/btn";
+
+@import "includes/topbar";
+@import "includes/shopbar";
+@import "includes/category";
+@import "includes/dropdown";
+@import "includes/nav";
+@import "includes/material";
+@import "includes/footer";
+
+.breadcrumb {
+    @include clearfix;
+    > li {
+       float: left;
+       + li {
+            &:before {
+                margin-left: 3px;
+                margin-right: 3px;
+                content: "\003e";
+            }
+       }
+       a {
+            padding: 8px;
+            line-height: 55px;
+            color: $lightColor;
+       }
+    }
+}
+
+.card {
+    float: left;
+    width: 390px;
+    height: 193px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    /*background-color: #b60e2a;*/
+    background-image: url("../image/card.png");
+    background-repeat: no-repeat;
+    color: #fff;
+
+    &.used {
+        opacity: 0.6;
+        .corner {
+        background-image: url("../image/corner-gray.png");
+        /*background-color: #bfbfbf;*/
+        }
+    }
+    .corner {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 95px;
+        height: 94px;
+        font-size: 20px;
+        background-image: url("../image/corner-yellow.png");
+        /*background-color: #ffc600;*/
+        text-indent: -9999px;
+        text-transform:capitalize;
+        text-align: center;
+    }
+
+    .card-price {
+        padding-left: 33px;
+        padding-right: 33px;
+        font-size: 60px;
+        font-family: Arial;
+        .sup {
+            vertical-align: super;
+            font-size: 30px;
+            margin-left: -8px;
+        }
+    }
+    p {
+        padding-left: 33px;
+        padding-right: 33px;
+        font-size: 14px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
