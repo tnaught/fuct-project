@@ -15,7 +15,7 @@
         color: #fff;
         background-color: #313131;
         font-weight: 700;
-        font-family: tahoma,arial,'Hiragino Sans GB','黑体',sans-serif;
+        // font-family: tahoma,arial,'Hiragino Sans GB','黑体',sans-serif;
     }
 
     .category-dropdown {
@@ -38,7 +38,7 @@
                 > li > a {
                     display: block;
                     padding: 7px 21px 7px 21px;
-                    overflow: hidden;
+                    // overflow: hidden;
                     white-space: nowrap;
                     text-overflow: ellipsis;
                 }
@@ -55,9 +55,8 @@
                 }
                 .category-name {
                     display: block;
-                    font-weight: 600;
-                    font-size: 16px;
-                    color: #333;
+                    color: #000;
+                    font-weight: 700;
                 }
             }
         }

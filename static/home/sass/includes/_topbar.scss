@@ -8,19 +8,18 @@ $topbarHeight: 50px;
     padding-left: 21px;
     padding-right: 15px;
     background-color: $topbarColor;
-    font-family: tahoma,arial,'Hiragino Sans GB','黑体',sans-serif;
+    // font-family: tahoma,arial,'Hiragino Sans GB','黑体',sans-serif;
 
-    a {
-        color: #333;
-    }
     .attent-btn {
         margin-right: 18px;
+        color: #000;
     }
     .favorate-btn {
         margin-right: 50px;
+        color: #000;
     }
     .topbar-welcome {
-        color: #999;
+        color: rgba(0, 0, 0, .6);
         margin-right:21px;
     }
     .log, .signin {

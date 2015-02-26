@@ -27,8 +27,6 @@
             > li {
 
                 > a {
-                    color: #666;
-                    font-size: 15px;
                     line-height: 26px;
                 }
             }
@@ -37,7 +35,8 @@
                 
                 > a {
                     font-size: 20px;
-                    color: #333;
+                    color: #000;
+                    font-weight: 700;
                 }
             }
         }
@@ -45,6 +44,7 @@
     .web-footer {
         margin-top: 42px;
         text-align: center;
+        color: rgba(0, 0, 0, .6);
 
         ul {
             @include display-inline-block;
@@ -55,7 +55,6 @@
                 a {
                     display: block;
                     padding: 0px 10px;
-                    color: #666;
                 }
                 + li {
                     border-left: 1px solid #aaa;
@@ -89,7 +88,6 @@
         margin-top:-1px;
         border: 1px solid #e0e0e0;
         padding: 10px 10px 10px 38px;
-        font-weight: 700;
         background-position: 9px center;
         background-repeat: no-repeat;
     }

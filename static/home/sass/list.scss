@@ -55,8 +55,7 @@
        a {
             padding: 8px;
             line-height: 74px;
-            font-size: 18px;
-            color: $darkColor;
+            font-size: 16px;
        }
        &:last-child {
             a {
@@ -83,18 +82,17 @@
         border-bottom: 1px solid $border-default-color;
         padding: 18px;
         margin-top: -1px;
-        font-size: 18px;
+        font-size: 16px;
     }
     .select-title {
-        color: #8d8d8d;
         float: left;
+        color: rgba(0, 0, 0, .6);
     }
     .select-num {
-        color: #8d8d8d;
+        color: rgba(0, 0, 0, .6);
     }
     .radio-list, .checkbox-list {
         float: left;
-        color: $darkColor;
         margin-left: 27px;
     }
 }
@@ -103,6 +101,7 @@
 
     .sort-nav {
         float: left;
+        font-size: 16px;
     }
     input {
         height: 26px;
@@ -141,8 +140,8 @@
         padding-top: 121px - 18px;
         padding-bottom: 359px - 78px;
         text-align: center;
-        font-size: 16px;
-        color: $darkColor;
+        color: #000;
+        font-weight: 700;
     }
     .keyword {
         color: $btn-primary;

@@ -15,14 +15,16 @@
             @include clearfix;
 
             .real {
-                color: #eb1319;
+                font-family: Arial;
+                color: $price-color;
+                font-size: 20px;
             }
             .factory {
+                color: rgba(0, 0, 0, .6);
             }
         }
         .name {
             color: #000;
-            font-size: 16px;
         }
         .bug {
             button {

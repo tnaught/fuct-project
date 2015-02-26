@@ -5,12 +5,13 @@ $shopbarHeight: 150px;
     height: 120px;
     padding-top: ($shopbarHeight - 120)/2;
     padding-bottom: ($shopbarHeight - 120)/2;
-    font-family: tahoma,arial,'Hiragino Sans GB','黑体',sans-serif;
+    // font-family: tahoma,arial,'Hiragino Sans GB','黑体',sans-serif;
     @include clearfix;
     
     .qrcode {
         @include display-inline-block;
         margin-right: 40px;
+        color: rgba(0, 0, 0, .6);
         img {
             display: block;
             width: auto;
@@ -30,17 +31,21 @@ $shopbarHeight: 150px;
         margin-top: 30px;
 
         span {
-            font-size: 16px;
+            font-size: 18px;
             display: block;
         }
+        .url {
+            color: rgba(0, 0, 0, .6);
+        }
         .name {
-            font-size: 18px;
+            font-size: 20px;
             color: #333;
         }
     }
     .area-choose {
         @include display-inline-block;
         margin-top: 57px;
+        color: #000;
     }
     .security {
         text-align: right;

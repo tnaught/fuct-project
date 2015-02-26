@@ -25,7 +25,8 @@
     background-repeat: no-repeat;
     margin-bottom:20px;
     border: 1px solid $border-default-color;
-    
+    color: #000;
+
     &.hot {
         background-image: url("../image/hot.png");
         background-position: left top;
@@ -38,12 +39,11 @@
         margin-top: 24px;
         margin-bottom: 20px;
         font-size: 21px;
-        color: #000;
         font-weight: 700;
-        font-family: tahoma,arial,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+        // font-family: tahoma,arial,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
     }
     .date, .address { 
-        font-size: 18px;
+        font-size: 15px;
         color: #000;
 
         .value {
@@ -56,9 +56,6 @@
     .address {
         margin-bottom: 12px;
     }
-    .address a {
-        color: #000;
-    }
 }
 
 .promotion-detail {
@@ -67,10 +64,10 @@
         font-size: 21px;
         color: #000;
         font-weight: 700;
-        font-family: tahoma,arial,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+        // font-family: tahoma,arial,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
     }
     .date, .address { 
-        font-size: 18px;
+        font-size: 15px;
         color: #000;
 
         .value {

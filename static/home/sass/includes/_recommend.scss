@@ -46,7 +46,6 @@ $contentHeight: 160px;
 
             .des-inner {
                 padding: 13px;
-                font-size: 16px;
                 color: $darkColor;
 
                 .price {
@@ -55,13 +54,12 @@ $contentHeight: 160px;
                     .num {
                         font-family: Arial;
                         letter-spacing: 1px;
-                        font-size: 21px;
+                        font-size: 24px;
                     }
                 }
                 .btn {
                     padding: 5px 8px;
                     float: right;
-                    font-size: 14px;
                     background-color: $btn-primary;
                     color: #fff;
                 }

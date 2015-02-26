@@ -10,6 +10,7 @@
     background-position: 50px bottom;
     background-repeat: no-repeat;
     overflow: hidden;
+    font-weight: 700;
     @include transition-property(background-position);
     @include transition-duration(.4s);
     
@@ -26,7 +27,7 @@
             text-align: center;
             color: #fff;
             font-size: 16px;
-            font-family: tahoma,arial,'Hiragino Sans GB','黑体',sans-serif;
+            // font-family: tahoma,arial,'Hiragino Sans GB','黑体',sans-serif;
         }
     }
 }
