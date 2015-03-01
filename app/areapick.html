@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>区域选择页面</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../static/home/css/areapicker.css" media="screen, projection">
+    <!--[if IE]
+    <link rel="stylesheet" type="text/css" href="../static/home/css/ie.css" media="screen, projection">
+    <![endif]-->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="shopbar">
+                <div class="brand pull-left">
+                    <img src="../static/home/image/brand.png" alt="" class="brand-image">
+                </div>
+                <div class="name-area pull-left">
+                    <span class="name">官方网上商城</span>
+                    <span class="url">shop.aaa.com</span>
+                </div>
+                <div class="pull-right">
+                    <span>咨询热线：400-1234-999</span>
+                    <span>服务时间：8:30-13:30</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="welcome">
+        <h1 class="title">欢迎来到官方商城</h1>
+        <div class="sub-title">在线咨询本地体验店导购，享受高效的配送与售后</div>
+        <div class="tip">您所在的城市</div>
+        <div class="areapicker-dropdown collapse">
+            <div class="areapicker-toggle">
+                <span>北京市</span>
+                <span>北京市</span>
+                <span>海淀区</span>
+                <div class="dropdown-arrow down"></div>
+            </div>
+            <div class="areapicker-target">
+                <div class="areapicker" value="北京市-北京市-海淀区"></div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div class="web-footer">
+                <ul>
+                    <li><a href="">品牌商城</a></li>
+                    <li><a href="">品牌官网</a></li>
+                    <li><a href="">购物保障</a></li>
+                    <li><a href="">服务承诺</a></li>
+                    <li><a href="">帮助中心</a></li>
+                </ul>
+                <p class="copyright">
+                    Copyright©aaa网上商城 2014-2015.All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../static/lib/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/home/js/jquery-areapicker.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(document).on('click', '.areapicker-dropdown .dropdown-arrow', function() {
+                $(this).closest('.areapicker-dropdown').toggleClass('collapse');
+                // if($(this).hasClass('down')) {
+                // }
+            })
+        })
+    </script>
+</body>
+</html>

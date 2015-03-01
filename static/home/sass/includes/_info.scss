@@ -1,0 +1,86 @@
+.areapicker {
+	@extend .clearfix;
+	width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor:pointer;
+	position:relative;
+	.areapicker-picker {
+		position: absolute;
+		left: -24px;right:-24px;
+		top: 100%;
+		margin-top: -1px;
+		border: 1px solid $btn-primary;
+		background: #fff;
+		padding: 10px 2px 20px 2px;
+		@extend .clearfix;
+		li {
+			float: left;
+			width: 80px;
+			height: 20px;
+			line-height: 20px;
+			margin-left: 20px;
+			margin-top: 15px;
+			
+			span {
+				padding:5px 7px;
+				&:hover {
+					background: $btn-primary;
+					color: #fff;
+				}
+			}
+		}
+	}
+	.areapicker-c {
+		margin-left: 15px;
+	}
+	.areapicker-v {
+		margin-left: 15px;
+	}
+	.areapicker-p, .areapicker-c, .areapicker-v {
+		border: 1px solid $border-default-color;
+		padding: 0 10px;
+		width: 108px - 20px;
+		height: 38px;
+		background: #fff;
+		line-height: 38px;
+		float:left;
+		// margin-top:-5px;
+		// margin-left:-2px;
+		text-align: left;
+		text-indent: 20px;
+		font-size: 16px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+
+		.option {
+			display:none;
+		}
+		position:relative;
+
+		&:before {
+			content:"";
+			display:block;
+			position:absolute;
+			top: 50%;
+			right:8px;
+			margin-top: -2.5px;
+			width:0;
+			height:0;
+			border-style:solid;
+			border-color:#000 transparent transparent transparent;
+			border-width:5px 5px 5px;
+		}
+	}
+	&.p .areapicker-p,
+	&.c .areapicker-c,
+	&.v .areapicker-v {
+		z-index: 2;
+		border-color: $btn-primary;
+		border-bottom: 1px solid #fff;
+	}
+}
+
+
+

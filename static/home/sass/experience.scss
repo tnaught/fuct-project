@@ -13,14 +13,76 @@
 @import "includes/category";
 @import "includes/dropdown";
 @import "includes/nav";
-@import "includes/material";
 @import "includes/breadcrumb";
 @import "includes/footer";
 
 #panel {
     width:100%;
-    height: 580px;
 }
 #map {
     height:580px;width:100%;
+}
+.experience {
+    li {
+        padding: 8px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+        border: 1px solid $border-default-color;
+        color: rgba(0, 0, 0, .6);
+        @include clearfix;
+
+        .content {
+            float: left;
+            line-height: 1.85;
+        }
+        .title {
+            font-size: 16px;
+            color: #000;
+            font-weight: 700;
+            word-wrap: none;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .sendToPhone {
+            color: $btn-primary;
+        }
+    }
+    li.active {
+        border-color: $btn-primary;
+        position: relative;
+        
+        & :after {
+            position: absolute;
+            right: -8px;
+            top: 50%;
+            margin-top: -10px;
+            content: "";
+            width: 14px;
+            height: 14px;
+            background-color: #fff;
+            border-right: 1px solid $btn-primary;
+            border-top: 1px solid $btn-primary;
+            @include rotate(45deg);
+        }
+    }
+}
+span.marker {
+    float: left;
+    display: inline;
+    width: 20px;
+    height: 30px;
+    margin-right: 8px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background: url("../image/marker.png") no-repeat 
+}
+span.phone {
+    @include display-inline-block;
+    width: 14px;
+    height: 23px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background: url("../image/phone.png") no-repeat   
 }

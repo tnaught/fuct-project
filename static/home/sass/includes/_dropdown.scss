@@ -6,6 +6,10 @@
     vertical-align: middle;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     &.down {
         border-top: 4px solid #000;
     }

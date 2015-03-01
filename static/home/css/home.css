@@ -241,7 +241,7 @@ a {
   text-decoration: none;
   color: #333; }
 
-ul {
+ul, ol {
   list-style: none;
   padding: 0;
   margin: 0; }
@@ -447,7 +447,11 @@ ul {
   height: 0;
   vertical-align: middle;
   border-left: 4px solid transparent;
-  border-right: 4px solid transparent; }
+  border-right: 4px solid transparent;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
   .dropdown-arrow.down {
     border-top: 4px solid #000; }
   .dropdown-arrow.up {
@@ -878,27 +882,28 @@ ul {
           font-size: 20px;
           color: #000;
           font-weight: 700; }
-  .footer-inner .web-footer {
-    margin-top: 42px;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.6); }
-    .footer-inner .web-footer ul {
-      display: inline-block;
-      zoom: 1;
-      *display: inline;
-      *zoom: 1; }
-      .footer-inner .web-footer ul:before, .footer-inner .web-footer ul:after {
-        display: table;
-        content: ' '; }
-      .footer-inner .web-footer ul:after {
-        clear: both; }
-      .footer-inner .web-footer ul li {
-        float: left; }
-        .footer-inner .web-footer ul li a {
-          display: block;
-          padding: 0px 10px; }
-        .footer-inner .web-footer ul li + li {
-          border-left: 1px solid #aaa; }
+
+.web-footer {
+  margin-top: 42px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6); }
+  .web-footer ul {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    *zoom: 1; }
+    .web-footer ul:before, .web-footer ul:after {
+      display: table;
+      content: ' '; }
+    .web-footer ul:after {
+      clear: both; }
+    .web-footer ul li {
+      float: left; }
+      .web-footer ul li a {
+        display: block;
+        padding: 0px 10px; }
+      .web-footer ul li + li {
+        border-left: 1px solid #aaa; }
 
 /* 回到顶部 */
 .popup {

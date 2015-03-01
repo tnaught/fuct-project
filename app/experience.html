@@ -173,7 +173,54 @@
                 <div class="grid-3">
                     <div class="grid-inner">
                         <div id="panel">
-                            
+                            <ol class="experience">
+                                <li class="active">
+                                    <span class="marker">A</span>
+                                    <div class="content">
+                                       <div class="title">
+                                           北京居然之家北四环店
+                                       </div>
+                                       <div>
+                                            <span class="key">服务电话：</span>
+                                            <span class="value">010-84624959</span>
+                                        </div>
+                                        <div>
+                                            <span class="key">营业时间：</span>
+                                            <span class="value">010-84624959</span>
+                                        </div>
+                                        <div>
+                                            <span class="key">展馆地址：</span>
+                                            <span class="value">010-84624959</span>
+                                        </div>
+                                        <div class="sendToPhone">
+                                            <span class="phone"></span>发送到手机
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="marker">B</span>
+                                    <div class="content">
+                                       <div class="title">
+                                           北京居然之家北四环店
+                                       </div>
+                                       <div>
+                                            <span class="key">服务电话：</span>
+                                            <span class="value">010-84624959</span>
+                                        </div>
+                                        <div>
+                                            <span class="key">营业时间：</span>
+                                            <span class="value">010-84624959</span>
+                                        </div>
+                                        <div>
+                                            <span class="key">展馆地址：</span>
+                                            <span class="value">010-84624959</span>
+                                        </div>
+                                        <div class="sendToPhone">
+                                            <span class="phone"></span>发送到手机
+                                        </div>
+                                    </div>
+                                </li>
+                            </ol>
                         </div>
                     </div>
                 </div>
@@ -251,14 +298,43 @@
     </div>
     <script type="text/javascript" src="../static/lib/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="../static/home/js/promotion.js"></script>
-    <!--script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak="></script-->
-    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=A4749739227af1618f7b0d1b588c0e85"></script>
+    <!--script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script-->
     <script type="text/javascript">
         // 百度地图API功能
         var map = new BMap.Map("map");            // 创建Map实例
         map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);
+        var indexes = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
         var local = new BMap.LocalSearch(map, {
-            renderOptions: {map: map, panel: "panel"}
+            renderOptions: {
+                map: map,
+                autoViewport: true,
+                panel: "panel",
+                selectFirstResult: false
+            },
+            onSearchComplete: function(results) {
+                if(local.getStatus() == BMAP_STATUS_SUCCESS) {
+                    var html = '<ol class="experience">';
+                    for(var i = 0; i < results.getCurrentNumPois(); i++) {
+                        var poi = results.getPoi(i);
+                        html += '<li><span class="marker">'+indexes[i]+'</span><div class="content">';
+                        /*拼接结果html*/
+                        if(poi.title) {
+                            html += '<div class="title">' + poi.title + '</div>';
+                        }
+                        if(poi.phoneNumber) {
+                            html += '<div><span class="key">服务电话：</span><span class="value">' + poi.phoneNumber + '</span></div>';
+                        }
+                        if(poi.address) {
+                            html += '<div><span class="key">展馆地址：</span><span class="value">' + poi.address + '</span></div>';
+                        }
+                        html += '</div></li>';
+                    }
+                    html += '</ol>';
+                    // $('#panel').html(html)
+                }
+            },
+            pageCapacity: 4
         });
         local.search("居然之家");
     </script>

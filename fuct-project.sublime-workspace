@@ -4,12 +4,24 @@
 		"selected_items":
 		[
 			[
-				"scr",
-				"scrollTop"
+				"e",
+				"ellipsis"
 			],
 			[
-				"e",
-				"e"
+				"word-",
+				"word-wrap"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"scr",
+				"scrollTop"
 			],
 			[
 				"pro",
@@ -164,42 +176,27 @@
 	"buffers":
 	[
 		{
-			"file": "app/promotion_detail.html",
+			"file": "app/experience.html",
 			"settings":
 			{
-				"buffer_size": 16834,
+				"buffer_size": 16210,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/discount_card.html",
+			"file": "app/ls.html",
 			"settings":
 			{
-				"buffer_size": 16837,
-				"line_ending": "Windows"
+				"buffer_size": 2661,
+				"line_ending": "Windows",
+				"name": "<div style=\"font-style: normal; font-variant: norm"
 			}
 		},
 		{
-			"file": "/D/aideal/1/index.html",
+			"file": "static/home/sass/experience.scss",
 			"settings":
 			{
-				"buffer_size": 527,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "static/home/sass/promotion.scss",
-			"settings":
-			{
-				"buffer_size": 3099,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "static/home/sass/discount_cart.scss",
-			"settings":
-			{
-				"buffer_size": 758,
+				"buffer_size": 1879,
 				"line_ending": "Windows"
 			}
 		}
@@ -291,54 +288,103 @@
 		"/D/fuct-project",
 		"/D/fuct-project/app",
 		"/D/fuct-project/static",
-		"/D/fuct-project/static/home",
-		"/D/fuct-project/static/home/js",
 		"/D/fuct-project/static/home/sass",
 		"/D/fuct-project/static/home/sass/includes",
+		"/D/fuct-project/static/lib",
 		"/D/fuct-project/ui"
 	],
 	"file_history":
 	[
-		"/D/fuct-project/static/home/css/promotion.css",
-		"/D/fuct-project/static/home/js/promotion.js",
+		"/D/fuct-project/static/lib/pagination/simplePagination.js",
+		"/D/fuct-project/static/home/css/experience.css",
+		"/D/fuct-project/app/experience.html",
+		"/D/fuct-project/ui/品牌商定制商城/resources/scripts/axure/expr.js",
+		"/D/fuct-project/static/home/sass/experience.scss",
+		"/D/web-ui/gdq/css/style.css",
+		"/D/fuct-project/static/home/sass/includes/_param.scss",
+		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_param.scssc",
+		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/test/dummy_rails/config/initializers/wrap_parameters.rb",
 		"/D/fuct-project/app/promotion.html",
-		"/D/fuct-project/static/home/js/detail.js",
-		"/D/fuct-project/static/home/sass/home.scss",
-		"/D/fuct-project/static/home/sass/includes/_footer.scss",
-		"/D/fuct-project/static/home/js/home.js",
-		"/D/fuct-project/static/home/sass/includes/_mixin.scss",
-		"/D/fuct-project/app/detail.html",
-		"/D/fuct-project/app/home.html",
+		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/experience.scssc",
+		"/D/fuct-project/other/960-Grid-System-master/templates/expression_design/960_grid_12_col.design",
+		"/D/fuct-project/static/home/sass/includes/_layout.scss",
+		"/D/fuct-project/static/home/sass/discount_card.scss",
+		"/D/fuct-project/app/discount_card.html",
+		"/D/fuct-project/static/home/sass/promotion.scss",
+		"/D/fuct-project/static/home/sass/includes/_breadcrumb.scss",
+		"/D/fuct-project/app/promotion_detail.html",
+		"/D/fuct-project/static/lib/bootstrap/bootstrap.js",
+		"/D/fuct-project/static/home/sass/includes/_sideRecommend.scss",
+		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_sideRecommend.scssc",
+		"/D/fuct-project/ui/品牌商定制商城/plugins/sitemap/sitemap.js",
+		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/screen.scssc",
+		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_breadcrumb.scssc",
+		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_breadcrumbs.scssc",
+		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/tasks/bower.rake",
+		"/D/fuct-project/.sass-cache/6df4472dadac00fcd2831be1c2ca1abe41163e39/_border-radius.scssc",
+		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/promotion.scssc",
+		"/D/fuct-project/static/home/js/promotion.js",
+		"/D/fuct-project/static/home/sass/list.scss",
 		"/D/fuct-project/app/list.html",
 		"/D/fuct-project/app/list_nodata.html",
+		"/D/fuct-project/static/home/js/list.js",
+		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_list-group.scssc",
+		"/D/fuct-project/static/home/sass/includes/_recommend.scss",
 		"/D/fuct-project/static/home/sass/detail.scss",
-		"/D/fuct-project/static/home/sass/includes/_shopbar.scss",
-		"/D/fuct-project/static/home/sass/includes/_layout.scss",
-		"/D/fuct-project/static/home/sass/includes/_nav.scss",
-		"/D/fuct-project/static/home/sass/includes/_topbar.scss",
+		"/D/fuct-project/app/detail.html",
+		"/D/fuct-project/static/home/sass/includes/_material.scss",
+		"/D/fuct-project/static/home/sass/includes/_mixin.scss",
+		"/D/fuct-project/static/home/js/home.js",
+		"/D/fuct-project/static/home/sass/home.scss",
+		"/D/fuct-project/static/home/js/detail.js",
+		"/D/fuct-project/static/home/css/detail.css",
 		"/D/fuct-project/static/home/sass/includes/_category.scss",
-		"/D/fuct-project/static/home/sass/includes/_dropdown.scss",
-		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/promotion.scssc",
 		"/D/fuct-project/config.rb",
+		"/D/fuct-project/app/home.html",
+		"/D/fuct-project/static/home/sass/includes/_footer.scss",
+		"/D/fuct-project/.gitignore",
+		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_forms.scssc",
+		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_footer.scssc",
+		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/home.scssc",
+		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/home_old.scssc",
+		"/D/fuct-project/static/home/sass/includes/_nav.scss",
+		"/D/fuct-project/static/home/sass/includes/_shopbar.scss",
+		"/D/fuct-project/static/home/sass/includes/_topbar.scss",
+		"/D/fuct-project/static/home/sass/technology.scss",
+		"/D/fuct-project/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/d%058/fuct-project/static/home/sass/includes/_shopbar.scssc",
+		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/assets/stylesheets/bootstrap/_responsive-embed.scss",
+		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/tasks/converter/char_string_scanner.rb",
+		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/test/dummy_rails/config/initializers/filter_parameter_logging.rb",
+		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/test/dummy_rails/app/controllers/pages_controller.rb",
+		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/test/dummy_sass_only/import_all.sass",
+		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_tooltip.scssc",
+		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/assets/stylesheets/bootstrap/_component-animations.scss",
+		"/D/fuct-project/app/map-demo.html",
+		"/D/aideal/1/index.html",
+		"/D/aideal/1/app/experience.html",
+		"/D/fuct-project/app/technology.html",
+		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/technology.scssc",
+		"/D/fuct-project/app/test_carousel.html",
+		"/D/fuct-project/.sass-cache/6df4472dadac00fcd2831be1c2ca1abe41163e39/_text-emphasis.scssc",
+		"/D/fuct-project/static/home/sass/includes/_side-recommend.scss",
+		"/D/fuct-project/static/home/css/discount_card.css",
+		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/discount_cart.scssc",
+		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/discount_card.scssc",
+		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/test/support/dummy_rails_integration.rb",
+		"/D/fuct-project/app/test.html",
+		"/D/fuct-project/other/960-Grid-System-master/code/css/text.css",
+		"/D/fuct-project/static/home/css/promotion.css",
+		"/D/fuct-project/static/home/sass/includes/_dropdown.scss",
 		"/D/fuct-project/static/home/css/common.css",
 		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_shopbar.scssc",
 		"/D/fuct-project/static/home/css/home_old.css",
 		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/test/gemfiles/sass_head.gemfile",
-		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/screen.scssc",
 		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_topbar.scssc",
 		"/D/fuct-project/.sass-cache/6df4472dadac00fcd2831be1c2ca1abe41163e39/_text-overflow.scssc",
-		"/D/fuct-project/app/test.html",
 		"/D/fuct-project/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/d%058/fuct-project/static/home/sass/includes/_category.scssc",
 		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_dropdown.scssc",
 		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_dropdowns.scssc",
 		"/D/fuct-project/other/960-Grid-System-master/code/demo_rtl.html",
-		"/D/aideal/1/index.html",
-		"/D/fuct-project/static/home/css/detail.css",
-		"/D/fuct-project/static/home/sass/includes/_material.scss",
-		"/D/fuct-project/static/home/js/list.js",
-		"/D/fuct-project/static/home/sass/includes/_param.scss",
-		"/D/fuct-project/static/home/sass/list.scss",
-		"/D/fuct-project/static/home/sass/includes/_recommend.scss",
 		"/D/fuct-project/ui/品牌商定制商城/resources/scripts/axure/repeater.js.orig",
 		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/material.scssc",
 		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/detail.scssc",
@@ -353,23 +399,15 @@
 		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_pager.scssc",
 		"/D/fuct-project/static/home/sass/includes/_btn.scss",
 		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_btn.scssc",
-		"/D/fuct-project/static/lib/bootstrap/bootstrap.js",
 		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_recommend.scssc",
 		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_responsive-embed.scssc",
 		"/D/fuct-project/README.md",
-		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/tasks/converter/char_string_scanner.rb",
 		"/D/fuct-project/ui/品牌商定制商城/resources/scripts/axutils.js",
-		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_footer.scssc",
-		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_forms.scssc",
 		"/D/fuct-project/fuct-project.sublime-project",
 		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_material.scssc",
-		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_param.scssc",
-		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/test/dummy_rails/config/initializers/wrap_parameters.rb",
-		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/assets/stylesheets/bootstrap/_responsive-embed.scss",
 		"/D/fuct-project/other/bootstrap-sass-3.3.2/pax_global_header",
 		"/D/fuct-project/static/home/css/home.css",
 		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/list.scssc",
-		"/D/fuct-project/ui/品牌商定制商城/plugins/sitemap/sitemap.js",
 		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_component-animations.scssc",
 		"/D/fuct-project/static/home/sass/common.scss",
 		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/common.scssc",
@@ -377,7 +415,6 @@
 		"/D/aideal/1/index.php",
 		"/D/fuct-project/static/home/sass/bootstrap-custom.scss",
 		"/D/fuct-project/static/home/sass/bootstrap/_variables.scss",
-		"/D/fuct-project/.gitignore",
 		"/D/fuct-project/other/960-Grid-System-master/app_plugins/fireworks/INSTALL.txt",
 		"/D/fuct-project/static/home/sass/bootstrap/_grid.scss",
 		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/ie.scssc",
@@ -385,48 +422,7 @@
 		"/D/fuct-project/static/home/sass/bootstrap/_mixins.scss",
 		"/D/fuct-project/static/home/sass/bootstrap/mixins/_nav-divider.scss",
 		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/test/node_mincer_test.rb",
-		"/D/fuct-project/static/home/sass/includes/_navbar.scss",
-		"/D/fuct-project/static/home/sass/bootstrap/_navbar.scss",
-		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_navbar.scssc",
-		"/D/fuct-project/.sass-cache/70fe894ca3fe9e44eac924ea9efcf02e195b6869/_navbar.scssc",
-		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_navbar.scssc",
-		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_layout.scssc",
-		"/D/fuct-project/.sass-cache/23f3134fb3e1243ab5cdf80fe18e0782f3dd71e4/_layout.scssc",
-		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_labels.scssc",
-		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/LICENSE",
-		"/D/fuct-project/other/960-Grid-System-master/licenses/GPL_license.txt",
-		"/D/fuct-project/static/home/sass/bootstrap/_dropdowns.scss",
-		"/D/fuct-project/static/home/sass/bootstrap/mixins/_grid.scss",
-		"/D/fuct-project/static/home/sass/bootstrap/mixins/_gradients.scss",
-		"/D/fuct-project/static/home/sass/bootstrap/mixins/_alerts.scss",
-		"/D/fuct-project/.sass-cache/70fe894ca3fe9e44eac924ea9efcf02e195b6869/_mixins.scssc",
-		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_mixins.scssc",
-		"/D/fuct-project/other/960-Grid-System-master/licenses/MIT_license.txt",
-		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_grid.scssc",
-		"/D/fuct-project/.sass-cache/6df4472dadac00fcd2831be1c2ca1abe41163e39/_grid.scssc",
-		"/D/fuct-project/.sass-cache/70fe894ca3fe9e44eac924ea9efcf02e195b6869/_grid.scssc",
-		"/D/fuct-project/.sass-cache/b1b88fef4c39b004a6eafae9dd96ccb207870137/_grid.scssc",
-		"/D/fuct-project/.sass-cache/f8978d9657290fcee6d1aa380d6af6b372e5596e/_grid.scssc",
-		"/D/fuct-project/.sass-cache/6df4472dadac00fcd2831be1c2ca1abe41163e39/_grid-framework.scssc",
-		"/D/fuct-project/.sass-cache/87fd690a8ef6dd31a485186b9c0ec13b688dec23/_grid-background.scssc",
-		"/D/fuct-project/.sass-cache/b1b88fef4c39b004a6eafae9dd96ccb207870137/_grid-framework.scssc",
-		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/assets/javascripts/bootstrap/dropdown.js",
-		"/D/fuct-project/.sass-cache/70fe894ca3fe9e44eac924ea9efcf02e195b6869/_dropdowns.scssc",
-		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
-		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/Gemfile",
-		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/home.scssc",
-		"/D/fuct-project/other/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/composer.json",
-		"/D/fuct-project/static/home/sass/home_old.scss",
-		"/D/fuct-project/app/grid-test.html",
-		"/D/fuct-project/.sass-cache/104656cc89c455402c25ee87ac12dd07479fd759/_variables.scssc",
-		"/D/fuct-project/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/composer.json",
-		"/D/fuct-project/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/test/compass_test.rb",
-		"/D/fuct-project/.sass-cache/596e9da5d82b6aaff8e4c8d7e041d67e07052771/bootstrap-custom.scssc",
-		"/D/fuct-project/bootstrap-sass-3.3.2.tar.gz",
-		"/D/fuct-project/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/bootstrap-sass.gemspec",
-		"/D/fuct-project/.sass-cache/95585a42a90f421050ae494243a1636722d7feb4/_background-origin.scssc",
-		"/D/fuct-project/bootstrap-sass-3.3.2/bootstrap-sass-3.3.2/Gemfile",
-		"/D/fuct-project/static/home/sass/includes/_bootstrap.scss"
+		"/D/fuct-project/static/home/sass/includes/_navbar.scss"
 	],
 	"find":
 	{
@@ -437,6 +433,7 @@
 		"height": 102.0,
 		"where_history":
 		[
+			"*.scss",
 			"*.html",
 			""
 		]
@@ -446,6 +443,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".sort-are",
+			"font-size",
+			".recommend",
+			"font-size",
+			".date",
+			"评价",
+			"font-size",
+			"font-family",
+			"lef-side",
 			"<li><a href=\"\">热销商品</a></li>",
 			"热销商品",
 			"查看详情",
@@ -559,149 +565,95 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/promotion_detail.html",
+					"file": "app/experience.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16834,
+						"buffer_size": 16210,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8434,
-								8434
+								15645,
+								15645
 							]
 						],
 						"settings":
 						{
+							"history_list_is_closing": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4380.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/discount_card.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16837,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8667,
-								8667
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 9329.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/aideal/1/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 527,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								488,
-								488
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 3,
-					"file": "static/home/sass/promotion.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3099,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								387,
-								758
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": -0.0,
-						"translation.y": 264.0,
+						"translation.y": 6634.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "static/home/sass/discount_cart.scss",
+					"buffer": 1,
+					"file": "app/ls.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 758,
+						"buffer_size": 2661,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								478,
-								478
+								663,
+								663
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"auto_name": "<div style=\"font-style: normal; font-variant: norm",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 184.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "static/home/sass/experience.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1766,
+								1766
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1650.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -729,21 +681,21 @@
 				1
 			],
 			[
-				1,
 				0,
-				2,
-				1
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.5,
 			1.0
 		]
 	},
@@ -768,16 +720,140 @@
 		"selected_items":
 		[
 			[
+				"experience.scss",
+				"static\\home\\sass\\experience.scss"
+			],
+			[
+				"param.scss",
+				"static\\home\\sass\\includes\\_param.scss"
+			],
+			[
+				"param",
+				"static\\home\\sass\\includes\\_param.scss"
+			],
+			[
+				"layout",
+				"static\\home\\sass\\includes\\_layout.scss"
+			],
+			[
+				"e",
+				"app\\experience.html"
+			],
+			[
+				"discount",
+				"app\\discount_card.html"
+			],
+			[
+				"di",
+				"static\\home\\sass\\discount_card.scss"
+			],
+			[
+				"bread",
+				"static\\home\\sass\\includes\\_breadcrumb.scss"
+			],
+			[
+				"sidere",
+				"static\\home\\sass\\includes\\_sideRecommend.scss"
+			],
+			[
+				"breadcrumb.scss",
+				"static\\home\\sass\\includes\\_breadcrumb.scss"
+			],
+			[
+				"promotion.scss",
+				"static\\home\\sass\\promotion.scss"
+			],
+			[
+				"prom",
+				"app\\promotion.html"
+			],
+			[
+				"list_no",
+				"app\\list_nodata.html"
+			],
+			[
+				"recommend",
+				"static\\home\\sass\\includes\\_recommend.scss"
+			],
+			[
+				"list.scss",
+				"static\\home\\sass\\list.scss"
+			],
+			[
+				"list.html",
+				"app\\list.html"
+			],
+			[
+				"material.scss",
+				"static\\home\\sass\\includes\\_material.scss"
+			],
+			[
+				"para",
+				"static\\home\\sass\\includes\\_param.scss"
+			],
+			[
+				"detail.scss",
+				"static\\home\\sass\\detail.scss"
+			],
+			[
+				"detail.html",
+				"app\\detail.html"
+			],
+			[
+				"category",
+				"static\\home\\sass\\includes\\_category.scss"
+			],
+			[
+				"home.scss",
+				"static\\home\\sass\\home.scss"
+			],
+			[
+				"foot",
+				"static\\home\\sass\\includes\\_footer.scss"
+			],
+			[
+				"nav.scss",
+				"static\\home\\sass\\includes\\_nav.scss"
+			],
+			[
+				"topbar",
+				"static\\home\\sass\\includes\\_topbar.scss"
+			],
+			[
+				"layout.scss",
+				"static\\home\\sass\\includes\\_layout.scss"
+			],
+			[
+				"home.html",
+				"app\\home.html"
+			],
+			[
+				"shopbar",
+				"static\\home\\sass\\includes\\_shopbar.scss"
+			],
+			[
+				"exp",
+				"app\\experience.html"
+			],
+			[
+				"experience.css",
+				"static\\home\\css\\experience.css"
+			],
+			[
+				"techo",
+				"static\\home\\sass\\technology.scss"
+			],
+			[
+				"disc",
+				"static\\home\\sass\\discount_card.scss"
+			],
+			[
 				"promotion.css",
 				"static\\home\\css\\promotion.css"
 			],
 			[
 				"home.js",
 				"static\\home\\js\\home.js"
-			],
-			[
-				"home.scss",
-				"static\\home\\sass\\home.scss"
 			],
 			[
 				"promotion",
@@ -792,24 +868,12 @@
 				"config.rb"
 			],
 			[
-				"shopbar",
-				"static\\home\\sass\\includes\\_shopbar.scss"
-			],
-			[
-				"topbar",
-				"static\\home\\sass\\includes\\_topbar.scss"
-			],
-			[
 				"category.scss",
 				"static\\home\\sass\\includes\\_category.scss"
 			],
 			[
 				"dropdown.scss",
 				"static\\home\\sass\\includes\\_dropdown.scss"
-			],
-			[
-				"nav.scss",
-				"static\\home\\sass\\includes\\_nav.scss"
 			],
 			[
 				"mixin",
@@ -824,44 +888,12 @@
 				"static\\home\\js\\detail.js"
 			],
 			[
-				"layout",
-				"static\\home\\sass\\includes\\_layout.scss"
-			],
-			[
-				"detail.scss",
-				"static\\home\\sass\\detail.scss"
-			],
-			[
 				"detail.css",
 				"static\\home\\css\\detail.css"
 			],
 			[
-				"material.scss",
-				"static\\home\\sass\\includes\\_material.scss"
-			],
-			[
-				"list.html",
-				"app\\list.html"
-			],
-			[
-				"home.html",
-				"app\\home.html"
-			],
-			[
-				"recommend",
-				"static\\home\\sass\\includes\\_recommend.scss"
-			],
-			[
-				"list.scss",
-				"static\\home\\sass\\list.scss"
-			],
-			[
 				"material",
 				"static\\home\\sass\\includes\\_material.scss"
-			],
-			[
-				"param",
-				"static\\home\\sass\\includes\\_param.scss"
 			],
 			[
 				"list.js",
@@ -872,16 +904,8 @@
 				"static\\home\\sass\\includes\\_grid.scss"
 			],
 			[
-				"category",
-				"static\\home\\sass\\includes\\_category.scss"
-			],
-			[
 				"list.css",
 				"static\\home\\css\\list.css"
-			],
-			[
-				"para",
-				"static\\home\\sass\\includes\\_param.scss"
 			],
 			[
 				"btn",
@@ -902,10 +926,6 @@
 			[
 				"home.sc",
 				"static\\home\\sass\\home.scss"
-			],
-			[
-				"layout.scss",
-				"static\\home\\sass\\includes\\_layout.scss"
 			],
 			[
 				"common.scss",
@@ -966,7 +986,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -974,7 +994,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 152.0,
+	"side_bar_width": 242.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -41,24 +41,24 @@
             }
         }
     }
-    .web-footer {
-        margin-top: 42px;
-        text-align: center;
-        color: rgba(0, 0, 0, .6);
+}
+.web-footer {
+    margin-top: 42px;
+    text-align: center;
+    color: rgba(0, 0, 0, .6);
 
-        ul {
-            @include display-inline-block;
-            @include clearfix;
+    ul {
+        @include display-inline-block;
+        @include clearfix;
 
-            li {
-                float: left;
-                a {
-                    display: block;
-                    padding: 0px 10px;
-                }
-                + li {
-                    border-left: 1px solid #aaa;
-                }
+        li {
+            float: left;
+            a {
+                display: block;
+                padding: 0px 10px;
+            }
+            + li {
+                border-left: 1px solid #aaa;
             }
         }
     }
